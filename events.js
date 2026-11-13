@@ -62,7 +62,7 @@ const EVENTS = [
 {"d":"2026-11-12","t":"19:00-21:00","s":"Public Speaking Society","e":"Education session (spacing in prepared speeches) + EGM","l":"University House, room G07","h":"uobpublicspeaking"},
 {"d":"2026-11-12","t":"TBC","s":"Computer Science Society","e":"Python workshop for beginners (bring a laptop)","l":"Not specified (\"the lab\")","h":"cssbham"},
 {"d":"2026-11-12","t":"TBC","s":"Labour Students (BULS)","e":"Guest speaker: Alex Ballinger MP on foreign affairs","l":"Not specified","h":"uob_labour"},
-{"d":"2026-11-13","t":"15:30-18:30","s":"Singapore Society","e":"Deepavali celebration: kabaddi, rangoli, sparklers (dinner at Hyderabad Wala after)","l":"Selly Park","h":"uobsingsoc"},
+{"d":"2026-11-13","t":"17:00","s":"Singapore Society","e":"Deepavali celebration, then dinner at Hyderabad Wala with fireworks from 20:00","l":"Guild of Students","h":"uobsingsoc"},
 {"d":"2026-11-13","t":"18:00-23:00","s":"Hindu Society (NHSF)","e":"SIYA 2026 (Diwali ball)","l":"Digbeth Hall, Birmingham","h":"uobhindusoc"},
 {"d":"2026-11-13","t":"19:00 (doors 18:30)","s":"3Bugs Fringe Theatre","e":"The Witch of Edmonton, night 3","l":"Dance Studio, Guild of Students","h":"3bugsfringe"},
 {"d":"2026-11-13","t":"19:00 (doors 18:30)","s":"Pantomime Society","e":"Swan Lake: the very silly Pantomime (also Sat 14 & Sun 15 Nov, 16:00; £4/£5 cash on door)","l":"Not specified","h":"uobpantosoc"},

@@ -1,0 +1,18 @@
+{
+  "about": "Manual corrections requested by societies. The weekly update applies these after it builds the list, so they are not overwritten. Remove an entry once its event date has passed.",
+  "corrections": [
+    {
+      "handle": "uobsingsoc",
+      "date": "2026-11-13",
+      "match": "Deepavali",
+      "action": "replace",
+      "set": {
+        "t": "17:00",
+        "e": "Deepavali celebration, then dinner at Hyderabad Wala with fireworks from 20:00",
+        "l": "Guild of Students"
+      },
+      "note": "Society asked for new start time, venue and plan, 12 Nov 2026"
+    }
+  ],
+  "never_list": []
+}
