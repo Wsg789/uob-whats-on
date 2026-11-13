@@ -93,7 +93,7 @@
     if (e.time.start === null) el.querySelector('[data-act="cal"]').hidden = true;
     el.querySelector(".ev-acts").onclick = function (ev) {
       var btn = ev.target.closest("button"); if (!btn) return;
-      if (btn.dataset.act === "cal") downloadIcs(e); else copyLink(e);
+      if (btn.dataset.act === "cal") calMenu(e, btn); else if (btn.dataset.act === "link") copyLink(e);
     };
     return el;
   }
@@ -138,10 +138,41 @@
     if (navigator.share && matchMedia("(pointer: coarse)").matches) { navigator.share({ title: e.name, text: text }).catch(function () {}); return; }
     (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () { toast("Copied to clipboard"); }, function () { toast("Could not copy. Long-press the event to select it."); });
   }
+  function endMins(e) { return e.time.end !== null && e.time.end > e.time.start ? e.time.end : Math.min(e.time.start + 120, 1439); }
+  function calStamp(e, mins, dashed) {
+    var hh = String(Math.floor(mins / 60) % 24).padStart(2, "0"), mm = String(mins % 60).padStart(2, "0");
+    return dashed ? e.d + "T" + hh + ":" + mm + ":00" : e.d.replace(/-/g, "") + "T" + hh + mm + "00";
+  }
+  function calNote(e) { return "Listed on whatson. Check the society's Instagram before you go: https://www.instagram.com/" + e.handle + "/"; }
+  function closeCalMenu() {
+    var m = document.querySelector(".cal-menu");
+    if (m) { var b = m.parentNode.querySelector('[data-act="cal"]'); if (b) b.setAttribute("aria-expanded", "false"); m.remove(); }
+  }
+  function calMenu(e, btn) {
+    var open = btn.parentNode.querySelector(".cal-menu");
+    closeCalMenu();
+    if (open) return;
+    var title = e.name + " (" + e.soc + ")", enc = encodeURIComponent;
+    var google = "https://calendar.google.com/calendar/render?action=TEMPLATE&text=" + enc(title) +
+      "&dates=" + calStamp(e, e.time.start) + "/" + calStamp(e, endMins(e)) + "&ctz=Europe/London" +
+      (e.hasLoc ? "&location=" + enc(e.loc) : "") + "&details=" + enc(calNote(e));
+    var outlook = "https://outlook.office.com/calendar/deeplink/compose?path=/calendar/action/compose&rru=addevent&subject=" + enc(title) +
+      "&startdt=" + enc(calStamp(e, e.time.start, true)) + "&enddt=" + enc(calStamp(e, endMins(e), true)) +
+      (e.hasLoc ? "&location=" + enc(e.loc) : "") + "&body=" + enc(calNote(e));
+    var m = document.createElement("div"); m.className = "cal-menu"; m.setAttribute("role", "menu");
+    m.innerHTML = '<p>Add to calendar</p><a role="menuitem" target="_blank" rel="noopener">Google Calendar</a><a role="menuitem" target="_blank" rel="noopener">Outlook (uni account)</a><button type="button" role="menuitem" data-act="ics">Apple or other (.ics file)</button>';
+    var links = m.querySelectorAll("a"); links[0].href = google; links[1].href = outlook;
+    links[0].onclick = links[1].onclick = function () { setTimeout(closeCalMenu, 0); };
+    m.querySelector("button").onclick = function () { downloadIcs(e); closeCalMenu(); };
+    btn.parentNode.appendChild(m); btn.setAttribute("aria-expanded", "true");
+    links[0].focus();
+  }
+  document.addEventListener("click", function (ev) { if (!ev.target.closest(".ev-acts")) closeCalMenu(); });
+  document.addEventListener("keydown", function (ev) { if (ev.key === "Escape") closeCalMenu(); });
   function downloadIcs(e) {
-    function stamp(mins) { return e.d.replace(/-/g, "") + "T" + String(Math.floor(mins / 60) % 24).padStart(2, "0") + String(mins % 60).padStart(2, "0") + "00"; }
+    function stamp(mins) { return calStamp(e, mins); }
     function esc(s) { return s.replace(/\\/g, "\\\\").replace(/([,;])/g, "\\$1").replace(/\n/g, "\\n"); }
-    var end = e.time.end !== null && e.time.end > e.time.start ? e.time.end : Math.min(e.time.start + 120, 1439);
+    var end = endMins(e);
     var ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//whatson//EN", "BEGIN:VEVENT",
       "UID:" + e.d + "-" + e.id + "@whatson", "DTSTAMP:" + new Date().toISOString().replace(/[-:]/g, "").slice(0, 15) + "Z",
       "DTSTART;TZID=Europe/London:" + stamp(e.time.start), "DTEND;TZID=Europe/London:" + stamp(end),
@@ -152,6 +183,7 @@
     a.href = URL.createObjectURL(new Blob([ics], { type: "text/calendar" }));
     a.download = e.name.toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 40) + ".ics";
     document.body.appendChild(a); a.click(); a.remove();
+    toast("Calendar file saved. Open it to add the event.");
   }
 
   // intro line
