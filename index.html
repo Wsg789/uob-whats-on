@@ -2,146 +2,66 @@
 <html lang="en-GB">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>UoB What's On – society events this week</title>
-<meta name="description" content="Unofficial weekly timetable of University of Birmingham society events, with times and rooms, gathered from society Instagram posts.">
-<meta property="og:title" content="UoB What's On">
-<meta property="og:description" content="Every UoB society event this week, with times and rooms. Unofficial, updated every Monday.">
-<meta property="og:type" content="website">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="theme-color" content="#b5402a">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23b5402a'/%3E%3Crect x='7' y='9' width='18' height='3' fill='%23fff'/%3E%3Crect x='7' y='15' width='18' height='3' fill='%23fff'/%3E%3Crect x='7' y='21' width='11' height='3' fill='%23fff'/%3E%3C/svg%3E">
-<style>*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
-<style>
-/* Layout: a printed-listings agenda. Masthead, filter bar, then one block per day with time | society + event | room rows. */
-:root{
-  --bg:#eef0f3; --paper:#ffffff; --ink:#1b2027; --muted:#5d6672; --rule:#d5d9df;
-  --brick:#b5402a; --brick-soft:#f6e2dc; --tbc:#8a6a12; --tbc-soft:#f5edd3;
-  --display:"Big Shoulders Display","Arial Narrow",sans-serif;
-  --body:"IBM Plex Sans",system-ui,sans-serif;
-  --mono:"IBM Plex Mono",ui-monospace,monospace;
-}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
-  --bg:#14171b; --paper:#1c2026; --ink:#e7eaee; --muted:#9aa3ae; --rule:#2e343c;
-  --brick:#e5765d; --brick-soft:#3a2420; --tbc:#e2c06a; --tbc-soft:#352d17; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#14171b; --paper:#1c2026; --ink:#e7eaee; --muted:#9aa3ae; --rule:#2e343c;
-  --brick:#e5765d; --brick-soft:#3a2420; --tbc:#e2c06a; --tbc-soft:#352d17; color-scheme:dark}
-body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.45;
-  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 48px}
-.wrap{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:22px}
-header{display:flex;flex-direction:column;gap:6px;border-bottom:3px solid var(--ink);padding-bottom:14px}
-.kicker{font-family:var(--mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--brick)}
-h1{font-family:var(--display);font-weight:800;font-size:clamp(40px,8vw,72px);line-height:.95;margin:0;letter-spacing:.01em;text-transform:uppercase;text-wrap:balance}
-.meta{color:var(--muted);font-size:14px;max-width:70ch}
-.stats{display:flex;flex-wrap:wrap;gap:6px 18px;font-family:var(--mono);font-size:13px;color:var(--muted)}
-.stats b{color:var(--ink);font-weight:500}
-.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:10px;border-bottom:1px solid var(--rule)}
-body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.bar input[type=search]{flex:1 1 220px;min-width:0;font:inherit;padding:9px 12px;border:1px solid var(--rule);background:var(--paper);color:var(--ink);border-radius:6px}
-.seg{display:flex;border:1px solid var(--rule);border-radius:6px;overflow:hidden}
-.seg button{font:inherit;font-size:13px;padding:8px 12px;background:var(--paper);color:var(--muted);border:0;cursor:pointer}
-.seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
-label.chk{display:flex;gap:6px;align-items:center;font-size:13px;color:var(--muted);cursor:pointer}
-button:focus-visible,input:focus-visible,a:focus-visible{outline:2px solid var(--brick);outline-offset:2px}
-.day{display:flex;flex-direction:column}
-.day h2{font-family:var(--display);font-weight:600;font-size:26px;text-transform:uppercase;letter-spacing:.03em;margin:0;padding:6px 0;display:flex;gap:12px;align-items:baseline;border-bottom:2px solid var(--ink)}
-.day h2 small{font-family:var(--mono);font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0;text-transform:none}
-.row{display:grid;grid-template-columns:150px minmax(0,1fr) minmax(0,260px);gap:6px 18px;padding:12px 0;border-bottom:1px solid var(--rule);background:transparent}
-.time{font-family:var(--mono);font-size:13px;font-variant-numeric:tabular-nums;color:var(--ink);padding-top:2px}
-.what{min-width:0;display:flex;flex-direction:column;gap:2px}
-.soc{font-weight:600}
-.soc a{color:inherit;text-decoration:none;border-bottom:1px solid var(--rule)}
-.soc a:hover{border-color:var(--brick);color:var(--brick)}
-.ev{color:var(--muted)}
-.loc{min-width:0;display:flex;align-items:flex-start}
-.pill{display:inline-block;font-size:13px;padding:3px 9px;border-radius:4px;background:var(--brick-soft);color:var(--ink);border-left:3px solid var(--brick)}
-.pill.tbc{background:var(--tbc-soft);border-left-color:var(--tbc);color:var(--muted);font-style:italic}
-.empty{padding:40px 0;color:var(--muted);text-align:center}
-footer{color:var(--muted);font-size:13px;border-top:1px solid var(--rule);padding-top:14px;display:flex;flex-direction:column;gap:6px;max-width:75ch}
-@media (max-width:640px){.row{grid-template-columns:1fr;gap:4px}.time{color:var(--brick)}}
-@media (prefers-reduced-motion:no-preference){.row{transition:background .15s}.row:hover{background:var(--paper)}}
-</style>
-
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="styles.css">
+<title>whatson – University of Birmingham society events</title>
+<meta name="description" content="Every University of Birmingham society event this week on one page, with times and rooms. Unofficial, updated every Monday.">
+<meta property="og:title" content="whatson – UoB society events">
+<meta property="og:description" content="Every UoB society event this week, with times and rooms.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="og.png">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="kicker">Unofficial · UoB society listings</div>
-    <h1>What's on this week</h1>
-    <p class="meta">Every event announced on UoB society Instagram accounts in the last seven days, pulled from public posts and sorted by day. Room details are as written by each society; check their post before you go.</p>
-    <div class="stats" id="stats"></div>
-  </header>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="./" aria-label="whatson home">
+      <span class="wordmark">whatson<i>.</i></span>
+      <small>UoB society events · unofficial</small>
+    </a>
+    <nav class="nav" aria-label="Main">
+      <a href="./" aria-current="page">Events</a>
+      <a href="about.html">About</a>
+      <a href="about.html#societies">For societies</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <section class="intro">
+    <div class="eyebrow" id="eyebrow">This week</div>
+    <h1>Society events at Birmingham, in one place.</h1>
+    <p><span id="lede">Times and rooms for every society event we can find.</span> <span id="updated"></span></p>
+  </section>
 
-  <div class="bar" role="search">
-    <input type="search" id="q" placeholder="Search society, event or room…" aria-label="Search events">
-    <div class="seg" role="group" aria-label="Date range">
-      <button type="button" id="r-week" aria-pressed="true">Next 7 days</button>
-      <button type="button" id="r-all" aria-pressed="false">Everything</button>
-    </div>
-    <label class="chk"><input type="checkbox" id="roomonly"> Only with a location</label>
+  <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+
+  <div class="tools">
+    <label class="search">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+      <input type="search" id="q" placeholder="Search societies, events or rooms" aria-label="Search all upcoming events" autocomplete="off">
+    </label>
+    <label class="check"><input type="checkbox" id="room"> Only events with a room</label>
   </div>
 
-  <main id="list"></main>
-
-  <footer>
-    <span id="src"></span>
-    <span>This is an unofficial student project, not run by the University of Birmingham or the Guild of Students. Event details belong to each society; if a listing is wrong or you want one removed, message the society or the account that shared this link.</span>
-    <span>Events without a stated room are flagged in yellow. Locations marked "Not specified" usually appear on the poster image or in the society's WhatsApp group.</span>
-  </footer>
-</div>
-
+  <section class="list" id="list" aria-live="polite"></section>
+  <noscript><p class="empty">This page needs JavaScript to show the event list.</p></noscript>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p><strong>whatson</strong> is an unofficial student project. It is not run by the University of Birmingham or the Guild of Students. Details come from each society&rsquo;s public posts, so check with the society before you travel.</p>
+    <nav aria-label="Footer">
+      <a href="about.html">About</a>
+      <a href="about.html#societies">Fix or remove a listing</a>
+      <a href="https://www.instagram.com/uobwhatson/" target="_blank" rel="noopener">Instagram</a>
+    </nav>
+  </div>
+</footer>
 <script src="events.js"></script>
-<script>
-const $ = id => document.getElementById(id);
-const fmtDay = d => new Date(d+"T12:00:00").toLocaleDateString("en-GB",{weekday:"long",day:"numeric",month:"long"});
-const hasLoc = l => !/^(not specified|tbc|location by dm|sent to whatsapp|see the society)/i.test(l) && !/room tbc/i.test(l);
-const state = {q:"", week:true, room:false};
-try{ const s=JSON.parse(localStorage.getItem("uobweek")||"{}"); Object.assign(state,{week:s.week??true,room:!!s.room}); }catch(e){}
-
-function render(){
-  const today = new Date(); today.setHours(0,0,0,0);
-  const from = new Date(META.from+"T00:00:00"), start = today > from ? today : from, end = new Date(start); end.setDate(end.getDate()+7);
-  const q = state.q.toLowerCase();
-  const rows = EVENTS.filter(e=>{
-    const d=new Date(e.d+"T12:00:00");
-    if(d<start) return false;
-    if(state.week && d>=end) return false;
-    if(state.room && !hasLoc(e.l)) return false;
-    return !q || (e.s+" "+e.e+" "+e.l+" "+e.h).toLowerCase().includes(q);
-  });
-  const days = {};
-  rows.forEach(e=>(days[e.d] ||= []).push(e));
-  const list=$("list"); list.innerHTML="";
-  const keys=Object.keys(days).sort();
-  if(!keys.length){ list.innerHTML='<p class="empty">No events match. Try clearing the search or choosing "Everything".</p>'; }
-  keys.forEach(k=>{
-    const sec=document.createElement("section"); sec.className="day";
-    sec.innerHTML=`<h2>${fmtDay(k)} <small>${days[k].length} event${days[k].length>1?"s":""}</small></h2>`;
-    days[k].forEach(e=>{
-      const r=document.createElement("div"); r.className="row";
-      const tbc=!hasLoc(e.l);
-      r.innerHTML=`<div class="time"></div><div class="what"><span class="soc"><a target="_blank" rel="noopener"></a></span><span class="ev"></span></div><div class="loc"><span class="pill${tbc?" tbc":""}"></span></div>`;
-      r.querySelector(".time").textContent=e.t;
-      const a=r.querySelector("a"); a.textContent=e.s; a.href="https://www.instagram.com/"+e.h+"/";
-      r.querySelector(".ev").textContent=e.e;
-      r.querySelector(".pill").textContent=e.l;
-      sec.appendChild(r);
-    });
-    list.appendChild(sec);
-  });
-  const withRoom=rows.filter(e=>hasLoc(e.l)).length;
-  $("stats").innerHTML=`<span><b>${rows.length}</b> events shown</span><span><b>${withRoom}</b> with a location</span><span><b>${META.accounts}</b> accounts checked</span><span><b>${META.posts}</b> posts read</span>`;
-  $("r-week").setAttribute("aria-pressed",state.week); $("r-all").setAttribute("aria-pressed",!state.week);
-  $("roomonly").checked=state.room;
-  try{ localStorage.setItem("uobweek",JSON.stringify({week:state.week,room:state.room})); }catch(e){}
-}
-$("q").addEventListener("input",e=>{state.q=e.target.value;render();});
-$("r-week").onclick=()=>{state.week=true;render();};
-$("r-all").onclick=()=>{state.week=false;render();};
-$("roomonly").onchange=e=>{state.room=e.target.checked;render();};
-$("src").textContent=`Updated ${META.updated}. Source: posts from ${META.window} on the Instagram accounts listed for ${META.groups} student groups on the Guild of Students directory (${META.accounts} with an Instagram).`;
-render();
-</script>
+<script src="app.js"></script>
 </body>
 </html>
