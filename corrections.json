@@ -12,6 +12,64 @@
         "l": "Guild of Students"
       },
       "note": "Society asked for new start time, venue and plan, 12 Nov 2026"
+    },
+    {
+      "handle": "watchthisuob",
+      "date": "2026-11-16",
+      "match": "Burnt Grove",
+      "action": "replace",
+      "set": {
+        "t": "18:00-21:00",
+        "l": "Guild Council Chamber, Guild of Students"
+      },
+      "note": "Watch This DM, 16 Nov 2026"
+    },
+    {
+      "handle": "watchthisuob",
+      "date": "2026-11-19",
+      "match": "Next Stage",
+      "action": "remove",
+      "note": "Watch This DM, 16 Nov 2026: postponed, no new date"
+    },
+    {
+      "handle": "filmsocbham",
+      "date": "2026-11-25",
+      "match": "Rocky Horror",
+      "action": "add",
+      "set": {
+        "t": "18:00",
+        "s": "Film Society",
+        "e": "Rocky Horror Picture Show + Phantom of the Paradise double bill (Rocky Horror first)",
+        "l": "Spoilers"
+      },
+      "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26)"
+    },
+    {
+      "handle": "filmsocbham",
+      "date": "2026-11-26",
+      "match": "Jumanji",
+      "action": "add",
+      "set": {
+        "t": "TBC",
+        "s": "Film Society",
+        "e": "Jumanji screening (with Sober Socials)",
+        "l": "Nuffield (room TBC)"
+      },
+      "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26); room to be confirmed by the society"
+    },
+    {
+      "handle": "filmsocbham",
+      "date": "2026-11-26",
+      "match": "Rocky Horror",
+      "action": "remove",
+      "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26)"
+    },
+    {
+      "handle": "filmsocbham",
+      "date": "2026-11-27",
+      "match": "Jumanji",
+      "action": "remove",
+      "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26)"
     }
   ],
   "never_list": []
