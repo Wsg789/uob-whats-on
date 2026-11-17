@@ -35,7 +35,7 @@ const EVENTS = [
 {"d": "2026-11-18", "t": "15:30", "s": "Aerospace Engineering Society", "e": "Bowling social (£8 members / £10 non-members)", "l": "Lane 7 (New Street)", "h": "uob_aerosoc"},
 {"d": "2026-11-18", "t": "16:00-17:00", "s": "KCover", "e": "K-pop dance class: Replay (SHINee)", "l": "Dance Studio, Guild of Students", "h": "kcoversoc"},
 {"d": "2026-11-18", "t": "16:00-18:00", "s": "Friends of Palestine", "e": "Tatreez and Tawakkul", "l": "University House 204", "h": "uobfriendsofpalestine"},
-{"d": "2026-11-18", "t": "16:00-18:00", "s": "Watch This", "e": "Free improv workshop (the 4-6, moved this week)", "l": "University House", "h": "watchthisuob"},
+{"d": "2026-11-18", "t": "16:00-18:00", "s": "Watch This", "e": "Free improv workshop (the 4-6, moved this week)", "l": "University House, Room G12", "h": "watchthisuob"},
 {"d": "2026-11-18", "t": "16:00-21:00", "s": "Sikh Society", "e": "West Midlands Kirtan Darbar: 557th Gurpurab of Guru Nanak Dev Ji (langar served)", "l": "Oak Room, Chaplaincy", "h": "uobsikhsociety"},
 {"d": "2026-11-18", "t": "17:00", "s": "Sitcom Society", "e": "New Girl social with jam tarts", "l": "UG07 (usual room)", "h": "uobsitcomsoc"},
 {"d": "2026-11-18", "t": "17:00-19:00", "s": "Islamic Society (EMAN)", "e": "EPS Communication workshop", "l": "Old Gym LG06", "h": "ubisoc"},
