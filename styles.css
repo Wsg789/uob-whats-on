@@ -151,7 +151,7 @@ h1 { margin: 0; font-size: clamp(34px, 6.2vw, 56px); line-height: 1.02; letter-s
 
 @media (max-width: 640px) {
   .brand small { display: none; }
-  .nav a:nth-child(3) { display: none; }
+  .nav a:nth-child(n+3) { display: none; }
   .intro { padding-block: 28px 12px; }
   .ev { grid-template-columns: 64px minmax(0, 1fr); gap: 4px 14px; padding: 16px 0; }
   .ev-time b { font-size: 17px; }
@@ -162,3 +162,29 @@ h1 { margin: 0; font-size: clamp(34px, 6.2vw, 56px); line-height: 1.02; letter-s
 @media (prefers-reduced-motion: no-preference) {
   .day-btn, .icon-btn, .nav a { transition: background-color 0.12s, border-color 0.12s, color 0.12s; }
 }
+
+/* ---------- student nights ---------- */
+.chips { display: flex; gap: 8px; overflow-x: auto; padding-block: 12px; scrollbar-width: none; margin-inline: -20px; padding-inline: 20px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: 0 0 auto; display: inline-flex; align-items: center; gap: 8px; height: 40px; padding: 0 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--ink); font: inherit; font-size: 14px; font-weight: 500; cursor: pointer; }
+.chip b { font-size: 12px; font-weight: 600; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.chip:hover { border-color: var(--ink-3); }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+.chip[aria-pressed="true"] b { color: color-mix(in srgb, var(--bg) 70%, transparent); }
+.chip[disabled] { opacity: 0.45; cursor: default; }
+.tag { display: inline-block; font-size: 11px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; padding: 2px 7px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-left: 8px; vertical-align: 2px; }
+.night-buy { display: grid; justify-items: end; gap: 6px; }
+.price { font-size: 14px; font-weight: 600; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ticket-btn { display: inline-flex; align-items: center; height: 36px; padding: 0 14px; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-size: 14px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.ticket-btn:hover { filter: brightness(1.08); }
+.later-head { margin-top: 36px; font-size: 13px; font-weight: 600; color: var(--accent); letter-spacing: 0.02em; }
+.night-note { margin: -32px 0 48px; font-size: 13px; color: var(--ink-3); max-width: 64ch; }
+@media (max-width: 640px) {
+  .night-buy { grid-column: 2; display: flex; align-items: center; justify-content: space-between; margin-top: 6px; }
+}
+.segs { display: inline-flex; flex-wrap: wrap; gap: 4px; padding: 4px; margin-top: 4px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); max-width: 100%; }
+.seg { height: 34px; padding: 0 12px; border: 0; border-radius: 8px; background: none; color: var(--ink-2); font: inherit; font-size: 14px; font-weight: 500; cursor: pointer; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.seg:hover { color: var(--ink); }
+.seg[aria-pressed="true"] { background: var(--bg); color: var(--ink); box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12); }
+.tag.soc { background: var(--live-soft); color: var(--live); }
+.ticket-btn.quiet { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
