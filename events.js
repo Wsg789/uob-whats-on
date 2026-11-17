@@ -56,6 +56,7 @@ const EVENTS = [
 {"d": "2026-11-19", "t": "16:00", "s": "Green Party Society", "e": "Leafleting for local Green councillors", "l": "DM for meeting point", "h": "uob_greenstudents"},
 {"d": "2026-11-19", "t": "16:00-18:00", "s": "Kickboxing Society", "e": "Kickboxing session", "l": "Guild Underground", "h": "uobkickboxingofficial"},
 {"d": "2026-11-19", "t": "17:00-19:00", "s": "Marketing Society", "e": "Leopard Co PR agency open house (meet Selly Oak station 16:25)", "l": "Leopard Co, 14 Bennetts Hill, B2 5RS", "h": "uobmarksoc"},
+{"d": "2026-11-19", "t": "17:00-19:00", "s": "Pakistan Society", "e": "Bowling Night (£9 members / £11 non-members; sign up via the form in their bio)", "l": "Lane7 Bullring", "h": "uobpakistansociety"},
 {"d": "2026-11-19", "t": "18:30", "s": "Politics Society", "e": "Pour Decisions: drinks then debate", "l": "Joe's Bar, then the Council Chambers", "h": "uobpolitics"},
 {"d": "2026-11-19", "t": "18:30", "s": "Tamil Society", "e": "Brum El Clásico: three-team football tournament", "l": "Gosta Green Pitch, Birmingham", "h": "uobtamilsoc"},
 {"d": "2026-11-19", "t": "19:00", "s": "Ahlulbayt Islamic Society (with Warwick ABSoc)", "e": "MasterChef night", "l": "Vita Student Cannon Park", "h": "uob_absoc"},
