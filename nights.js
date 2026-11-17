@@ -61,6 +61,17 @@ const NIGHTS = [
   { d: "2026-12-03", t: "TBC", n: "Winter Ball", by: "Metal Society (RAM Soc)", v: "Venue TBC", a: "digbeth", p: "See post", soc: true, h: "uob.ram.soc" },
   { d: "2026-12-07", t: "22:00", e: "03:00", n: "Christmas Sports Ball (all societies welcome)", by: "Brumski Ski & Snowboard Club", v: "Nortons, Digbeth", a: "digbeth", p: "from £19", soc: true, h: "brumskiandboard" },
   { d: "2026-12-08", t: "20:00", n: "Winter Soirée (formal)", by: "MathSoc", v: "The Cocktail Club", a: "digbeth", p: "See post", soc: true, h: "mathsoc" },
-  { d: "2026-12-09", t: "19:00", e: "00:00", n: "Christmas at Subside", by: "Metal Society (RAM Soc)", v: "Subside, Digbeth", a: "digbeth", p: "See post", soc: true, h: "uob.ram.soc" }
+  { d: "2026-12-09", t: "19:00", e: "00:00", n: "Christmas at Subside", by: "Metal Society (RAM Soc)", v: "Subside, Digbeth", a: "digbeth", p: "See post", soc: true, h: "uob.ram.soc" },
+  // The Goose, Selly Oak (schedule sent by the pub, 17 Nov 2026)
+  { d: "2026-11-19", t: "20:00", n: "Quiz Night (cash jackpot and prizes)", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-11-26", t: "20:00", n: "Quiz Night (cash jackpot and prizes)", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-12-03", t: "20:00", n: "Quiz Night (cash jackpot and prizes)", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-11-20", t: "21:00", n: "Resident DJ Jimmy D", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-11-27", t: "21:00", n: "Resident DJ Jimmy D", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-12-04", t: "21:00", n: "Resident DJ Jimmy D", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-11-21", t: "21:00", n: "Saturday DJ", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-11-28", t: "21:00", n: "Saturday DJ", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-12-05", t: "21:00", n: "Saturday DJ", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" },
+  { d: "2026-12-07", t: "TBC", n: "Karaoke", by: "The Goose", v: "The Goose, Selly Oak", a: "selly", p: "Drinks from £3.65 with MiXR", url: "https://www.instagram.com/goosesellyoak/", b: "Instagram", tag: "Student deals" }
 ];
 const NIGHTS_META = { updated: "17 November 2026", sources: "Fatsoma, the Guild, Lab11 and UoB societies" };

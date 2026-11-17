@@ -80,7 +80,8 @@
     el.querySelector(".price").textContent = n.p;
     var a = el.querySelector(".ticket-btn");
     a.href = n.url || "https://www.instagram.com/" + n.h + "/";
-    a.textContent = n.url ? (/guildofstudents/.test(n.url) ? "Guild page" : "Tickets") : "Society post";
+    a.textContent = n.b || (n.url ? (/guildofstudents/.test(n.url) ? "Guild page" : "Tickets") : "Society post");
+    if (n.b) a.classList.add("quiet");
     if (!n.url) a.classList.add("quiet");
     a.setAttribute("aria-label", a.textContent + " for " + n.n + " (opens a new tab)");
     return el;
