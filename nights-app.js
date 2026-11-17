@@ -48,6 +48,12 @@
     });
   }
 
+  // venue plus area, unless the venue already names the area (e.g. "Rosie's, Broad Street")
+  var AREA_WORDS = { selly: /selly oak/i, broad: /broad st/i, digbeth: /digbeth/i, trip: /^$/ };
+  function place(n) {
+    return AREA_WORDS[n.a] && AREA_WORDS[n.a].test(n.v) ? n.v : n.v + " · " + AREAS[n.a];
+  }
+
   function row(n) {
     var el = document.createElement("article");
     el.className = "ev night";
@@ -70,7 +76,7 @@
       s.href = "https://www.instagram.com/" + n.h + "/"; s.textContent = n.by;
       by.appendChild(s);
     } else by.textContent = "by " + n.by;
-    el.querySelector(".ev-loc span").textContent = n.v + " · " + AREAS[n.a];
+    el.querySelector(".ev-loc span").textContent = place(n);
     el.querySelector(".price").textContent = n.p;
     var a = el.querySelector(".ticket-btn");
     a.href = n.url || "https://www.instagram.com/" + n.h + "/";
