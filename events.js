@@ -103,7 +103,7 @@ const EVENTS = [
 {"d": "2026-11-23", "t": "19:00-00:00", "s": "Canadian Society", "e": "The Pear-fect Quiz Night (free tickets)", "l": "Bristol Pear, 676 Bristol Road, Selly Oak", "h": "uobcanadiansociety"},
 {"d": "2026-11-24", "t": "13:30-14:30", "s": "Business Society (with B-Enterprising)", "e": "Idea-to-pitch series, session 3: protecting your idea (IP)", "l": "University House 105", "h": "uobbusinesssoc"},
 {"d": "2026-11-24", "t": "TBC", "s": "Filipino Society (with Midlands FilSocs)", "e": "Midlands Takeover Acoustic Night (£4.50/£6.50)", "l": "Secret Garden, Leicester", "h": "uobfilsoc"},
-{"d": "2026-11-25", "t": "14:30-16:00", "s": "Women in Politics x Burn FM", "e": "Women in Media panel (£2/£3)", "l": "Arts, LR4", "h": "womeninpoliticsuob"},
+{"d": "2026-11-25", "t": "14:30-16:00", "s": "Women in Politics x Burn FM", "e": "Women in Media panel (tickets required: £2 members / £3 non-members, Guild website)", "l": "Arts, LR4", "h": "womeninpoliticsuob"},
 {"d": "2026-11-25", "t": "16:00-18:00", "s": "ELSA x Women in Tech", "e": "Digital Spaces, Unequal Realities: panel discussion", "l": "Arts Building, Lecture Room 5", "h": "elsa.birmingham"},
 {"d": "2026-11-25", "t": "16:30", "s": "Computer Science Society", "e": "Bouldering (student entry £9)", "l": "The Depot Birmingham, 10 Sherlock St, B5 6LU", "h": "cssbham"},
 {"d": "2026-11-25", "t": "18:00", "s": "Tamil Society (with Aston TSoc & Midlands Tamil societies)", "e": "A Tribute to our Maaveerar", "l": "Aston University (exact location TBC)", "h": "uobtamilsoc"},

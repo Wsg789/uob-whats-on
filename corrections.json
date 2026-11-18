@@ -70,6 +70,32 @@
       "match": "Jumanji",
       "action": "remove",
       "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26)"
+    },
+    {
+      "handle": "womeninpoliticsuob",
+      "date": "2026-11-25",
+      "match": "Women in Media",
+      "action": "replace",
+      "set": {
+        "t": "14:30-16:00",
+        "s": "Women in Politics x Burn FM",
+        "e": "Women in Media panel (tickets required: £2 members / £3 non-members, Guild website)",
+        "l": "Arts, LR4"
+      },
+      "note": "Burn FM DM, 18 Nov 2026: tickets required (Guild event 6387/15266)"
+    },
+    {
+      "handle": "womeninpoliticsuob",
+      "date": "2026-11-25",
+      "match": "Women in Media",
+      "action": "add",
+      "set": {
+        "t": "14:30-16:00",
+        "s": "Women in Politics x Burn FM",
+        "e": "Women in Media panel (tickets required: £2 members / £3 non-members, Guild website)",
+        "l": "Arts, LR4"
+      },
+      "note": "Burn FM DM, 18 Nov 2026: keeps the event if the scrape misses it"
     }
   ],
   "never_list": []
