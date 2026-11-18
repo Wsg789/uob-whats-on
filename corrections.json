@@ -96,6 +96,19 @@
         "l": "Arts, LR4"
       },
       "note": "Burn FM DM, 18 Nov 2026: keeps the event if the scrape misses it"
+    },
+    {
+      "handle": "uobindiansoc",
+      "date": "2026-11-19",
+      "match": "Games Night",
+      "action": "add",
+      "set": {
+        "t": "19:00-21:00",
+        "s": "Indian Society",
+        "e": "Games Night (snacks and drinks provided)",
+        "l": "University House 204"
+      },
+      "note": "Indian Society DM, 18 Nov 2026: date only on the poster, so the weekly run missed it"
     }
   ],
   "never_list": []

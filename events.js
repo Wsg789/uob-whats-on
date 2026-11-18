@@ -62,6 +62,7 @@ const EVENTS = [
 {"d": "2026-11-19", "t": "19:00", "s": "Ahlulbayt Islamic Society (with Warwick ABSoc)", "e": "MasterChef night", "l": "Vita Student Cannon Park", "h": "uob_absoc"},
 {"d": "2026-11-19", "t": "19:00", "s": "Conservative Society", "e": "In Conversation with Alex Burghart MP", "l": "Location in the society's WhatsApp group", "h": "uob.conservatives"},
 {"d": "2026-11-19", "t": "19:00-21:00", "s": "Canadian Law Society x UoB Pro Bono Group", "e": "Charity trivia night for LawWorks (£4 donation)", "l": "CIRCO", "h": "canadianlawsociety.uob"},
+{"d": "2026-11-19", "t": "19:00-21:00", "s": "Indian Society", "e": "Games Night (snacks and drinks provided)", "l": "University House 204", "h": "uobindiansoc"},
 {"d": "2026-11-19", "t": "19:00-21:30", "s": "NerdSoc", "e": "Author talk: Kate Cary (Warrior Cats)", "l": "University House 205", "h": "uob_nerdsoc"},
 {"d": "2026-11-19", "t": "19:00-22:00", "s": "ThrillSeekers", "e": "Pre go-karting social", "l": "Teaching and Learning Building, Room 109", "h": "thrillseekers_uob"},
 {"d": "2026-11-19", "t": "22:00-04:00", "s": "Punjabi Society (with Cambridge & Aston Punjabi Societies)", "e": "Punjabi takeover night", "l": "Rosie's, Broad St", "h": "uobpunjabisoc"},
