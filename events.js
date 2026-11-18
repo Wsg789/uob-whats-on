@@ -47,7 +47,7 @@ const EVENTS = [
 {"d": "2026-11-18", "t": "18:00", "s": "South Asian Law Society", "e": "SALS x Eversheds Sutherland in-office event (members only)", "l": "Eversheds Sutherland, Birmingham", "h": "uob.sals"},
 {"d": "2026-11-18", "t": "18:00-20:00", "s": "Sikhs in Law", "e": "Legal routes panel: SQE, BPC and paralegal (free, snacks)", "l": "University House Room 108", "h": "sikhsinlawuob"},
 {"d": "2026-11-18", "t": "18:00-21:00", "s": "Amnesty International (Youth Strike week, with RCP UoB)", "e": "Anti-militarism discussion and banner making", "l": "Nuffield, Room G17", "h": "uob.amnesty"},
-{"d": "2026-11-18", "t": "19:00-21:30", "s": "Debating Society", "e": "British Parliamentary training: Bryn Gough breakdown", "l": "Not specified", "h": "uobdebating"},
+{"d": "2026-11-18", "t": "19:00-21:00", "s": "Debating Society", "e": "BP (British Parliamentary) debate session", "l": "Teaching and Learning Building, Room 119", "h": "uobdebating"},
 {"d": "2026-11-18", "t": "19:30 (acts 20:00)", "s": "Birmingham Footnotes x Redbrick", "e": "Comedy night fundraiser (free, donations welcome)", "l": "Heybrew", "h": "birminghamfootnotes"},
 {"d": "2026-11-18", "t": "21:32 (arrive)", "s": "Kickboxing Society x Judo", "e": "Sports Night pres: dress as your type (open to all members)", "l": "See the society's Instagram", "h": "uobkickboxingofficial"},
 {"d": "2026-11-18", "t": "TBC", "s": "Quiz Society", "e": "Eva's flag quiz", "l": "University House 110", "h": "uob.quizsoc"},
