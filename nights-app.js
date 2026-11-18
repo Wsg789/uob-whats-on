@@ -71,11 +71,14 @@
       var t = document.createElement("span"); t.className = label === "Society" ? "tag soc" : "tag"; t.textContent = label; h.appendChild(t);
     });
     var by = el.querySelector(".ev-soc");
+    if (window.whatsonLogos) {
+      by.innerHTML = whatsonLogos.html(n.soc ? whatsonLogos.forSociety(n.by, n.h) : whatsonLogos.forNight(n.by, n.v));
+    }
     if (n.soc) {
       var s = document.createElement("a"); s.target = "_blank"; s.rel = "noopener";
       s.href = "https://www.instagram.com/" + n.h + "/"; s.textContent = n.by;
       by.appendChild(s);
-    } else by.textContent = "by " + n.by;
+    } else by.appendChild(document.createTextNode("by " + n.by));
     el.querySelector(".ev-loc span").textContent = place(n);
     el.querySelector(".price").textContent = n.p;
     var a = el.querySelector(".ticket-btn");

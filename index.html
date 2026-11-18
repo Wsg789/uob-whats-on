@@ -3,12 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#b5402a">
+<meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="styles.css?v=3">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css?v=8">
 <title>whatson – University of Birmingham society events</title>
 <meta name="description" content="Every University of Birmingham society event this week on one page, with times and rooms. Unofficial, updated every Monday.">
 <meta property="og:title" content="whatson – UoB society events">
@@ -21,51 +22,69 @@
 </head>
 <body>
 <header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="./" aria-label="whatson home">
-      <span class="wordmark">whatson<i>.</i></span>
-      <small>UoB society events · unofficial</small>
-    </a>
+  <div class="wrap head-inner">
+    <div class="brand-group">
+      <a class="brand" href="./" aria-label="whatson home">whatson<i>.</i></a>
+      <span class="brand-sub">UoB society events</span>
+    </div>
     <nav class="nav" aria-label="Main">
       <a href="./" aria-current="page">Events</a>
-      <a href="nights">Student nights</a>
+      <a href="nights"><span class="hide-sm">Student nights</span><span class="show-sm">Nights</span></a>
       <a href="about.html">About</a>
-      <a href="about.html#societies">For societies</a>
+      <a class="hide-sm" href="about.html#societies">For societies</a>
     </nav>
   </div>
 </header>
-<main class="wrap">
-  <section class="intro">
+
+<main>
+  <section class="wrap intro">
     <div class="eyebrow" id="eyebrow">This week</div>
     <h1>Society events at Birmingham, in one place.</h1>
     <p><span id="lede">Times and rooms for every society event we can find.</span> <span id="updated"></span></p>
   </section>
 
-  <div class="days" id="days" role="group" aria-label="Choose a day"></div>
-
-  <div class="tools">
-    <label class="search">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
-      <input type="search" id="q" placeholder="Search societies, events or rooms" aria-label="Search all upcoming events" autocomplete="off">
-    </label>
-    <label class="check"><input type="checkbox" id="room"> Only events with a room</label>
+  <div class="day-rail-wrap">
+    <div class="wrap">
+      <div class="days" id="days" role="group" aria-label="Choose a day"></div>
+    </div>
   </div>
 
-  <section class="list" id="list" aria-live="polite"></section>
-  <noscript><p class="empty">This page needs JavaScript to show the event list.</p></noscript>
-</main>
-<footer class="site-foot">
   <div class="wrap">
+    <div class="tools">
+      <label class="search">
+        <svg class="search-icon" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg>
+        <input type="search" id="q" placeholder="Search societies, events or rooms" aria-label="Search all upcoming events" autocomplete="off">
+        <button type="button" class="clear-btn" id="clear-q" aria-label="Clear search" hidden>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M18 6L6 18M6 6l12 12"/></svg>
+        </button>
+      </label>
+      <label class="room-toggle">
+        <input type="checkbox" id="room">
+        <span class="switch-track" aria-hidden="true"></span>
+        <span>Only events with a room</span>
+      </label>
+    </div>
+
+    <section class="list" id="list" aria-live="polite"></section>
+    <noscript><p class="empty">This page needs JavaScript to show the event list.</p></noscript>
+  </div>
+</main>
+
+<footer class="site-foot">
+  <div class="wrap foot-inner">
     <p><strong>whatson</strong> is an unofficial student project. It is not run by the University of Birmingham or the Guild of Students. Details come from each society&rsquo;s public posts, so check with the society before you travel.</p>
     <nav aria-label="Footer">
       <a href="about.html">About</a>
       <a href="about.html#societies">Fix or remove a listing</a>
-      <a href="https://www.instagram.com/uobwhatson/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.instagram.com/uobwhatson/" target="_blank" rel="noopener">Instagram (@uobwhatson)</a>
     </nav>
   </div>
 </footer>
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
 <script src="events.js"></script>
-<script src="app.js?v=2"></script>
+<script src="logos.js?v=1"></script>
+<script src="logo-match.js?v=2"></script>
+<script src="app.js?v=5"></script>
 <script data-goatcounter="https://uobwhatson.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

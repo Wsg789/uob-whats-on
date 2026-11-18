@@ -3,25 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#b5402a">
+<meta name="theme-color" content="#FAF9F6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111214" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;600;700;800&display=swap">
-<link rel="stylesheet" href="/styles.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="/styles.css?v=8">
 <title>Page not found – whatson</title>
 </head>
 <body>
 <header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="/" aria-label="whatson home">
-      <span class="wordmark">whatson<i>.</i></span>
-      <small>UoB society events · unofficial</small>
-    </a>
+  <div class="wrap head-inner">
+    <div class="brand-group">
+      <a class="brand" href="/" aria-label="whatson home">whatson<i>.</i></a>
+      <span class="brand-sub">UoB society events</span>
+    </div>
     <nav class="nav" aria-label="Main">
       <a href="/">Events</a>
+      <a href="/nights"><span class="hide-sm">Student nights</span><span class="show-sm">Nights</span></a>
       <a href="/about.html">About</a>
-      <a href="/about.html#societies">For societies</a>
+      <a class="hide-sm" href="/about.html#societies">For societies</a>
     </nav>
   </div>
 </header>
