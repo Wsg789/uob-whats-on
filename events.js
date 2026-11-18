@@ -61,6 +61,7 @@ const EVENTS = [
 {"d": "2026-11-19", "t": "18:30", "s": "Tamil Society", "e": "Brum El Clásico: three-team football tournament", "l": "Gosta Green Pitch, Birmingham", "h": "uobtamilsoc"},
 {"d": "2026-11-19", "t": "19:00", "s": "Ahlulbayt Islamic Society (with Warwick ABSoc)", "e": "MasterChef night", "l": "Vita Student Cannon Park", "h": "uob_absoc"},
 {"d": "2026-11-19", "t": "19:00", "s": "Conservative Society", "e": "In Conversation with Alex Burghart MP", "l": "Location in the society's WhatsApp group", "h": "uob.conservatives"},
+{"d": "2026-11-19", "t": "19:00", "s": "Meal Deal Society x UoB Comics", "e": "Movie night: Deadpool (2016); free Tesco meal deal for the first 40 (sponsored by Deliveroo), sign up via the link in their bio", "l": "Teaching and Learning Building, Lecture Theatre 2", "h": "uobmealdealsoc"},
 {"d": "2026-11-19", "t": "19:00-21:00", "s": "Canadian Law Society x UoB Pro Bono Group", "e": "Charity trivia night for LawWorks (£4 donation)", "l": "CIRCO", "h": "canadianlawsociety.uob"},
 {"d": "2026-11-19", "t": "19:00-21:00", "s": "Indian Society", "e": "Games Night (snacks and drinks provided)", "l": "University House 204", "h": "uobindiansoc"},
 {"d": "2026-11-19", "t": "19:00-21:30", "s": "NerdSoc", "e": "Author talk: Kate Cary (Warrior Cats)", "l": "University House 205", "h": "uob_nerdsoc"},

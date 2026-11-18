@@ -109,6 +109,19 @@
         "l": "University House 204"
       },
       "note": "Indian Society DM, 18 Nov 2026: date only on the poster, so the weekly run missed it"
+    },
+    {
+      "handle": "uobmealdealsoc",
+      "date": "2026-11-19",
+      "match": "Deadpool",
+      "action": "add",
+      "set": {
+        "t": "19:00",
+        "s": "Meal Deal Society x UoB Comics",
+        "e": "Movie night: Deadpool (2016); free Tesco meal deal for the first 40 (sponsored by Deliveroo), sign up via the link in their bio",
+        "l": "Teaching and Learning Building, Lecture Theatre 2"
+      },
+      "note": "Meal Deal Soc DM, 18 Nov 2026: posted after the weekly run"
     }
   ],
   "never_list": []
