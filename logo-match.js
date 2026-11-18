@@ -56,7 +56,7 @@
   function html(list) {
     if (!list.length) return "";
     return '<span class="logos" aria-hidden="true">' + list.map(function (l) {
-      return '<img src="' + l.src + '" alt="" width="24" height="24" loading="lazy" decoding="async">';
+      return '<img src="' + l.src + '" alt="" width="24" height="24" decoding="async">';
     }).join("") + "</span>";
   }
   window.whatsonLogos = { forSociety: forSociety, forNight: forNight, html: html };
