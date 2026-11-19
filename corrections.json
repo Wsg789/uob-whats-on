@@ -122,6 +122,84 @@
         "l": "Teaching and Learning Building, Lecture Theatre 2"
       },
       "note": "Meal Deal Soc DM, 18 Nov 2026: posted after the weekly run"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-11-25",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "16:00-19:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Murray Learning Centre, Room LG14"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-11-27",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "19:00-22:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Nuffield, Room G17"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-12-02",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "16:00-19:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Murray Learning Centre, Room LG14"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-12-04",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "19:00-22:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Nuffield, Room G17"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-12-09",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "16:00-19:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Murray Learning Centre, Room LG14"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "sobersocials",
+      "date": "2026-12-11",
+      "match": "Weekly sober social",
+      "action": "add",
+      "set": {
+        "t": "19:00-22:00",
+        "s": "Sober Socials",
+        "e": "Weekly sober social",
+        "l": "Nuffield, Room G17"
+      },
+      "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
     }
   ],
   "never_list": []
