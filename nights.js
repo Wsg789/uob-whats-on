@@ -50,6 +50,7 @@ const NIGHTS = [
   { d: "2026-11-19", t: "21:00", n: "INHUMANE bar crawl (ends at Snobs)", by: "History, Psychology, Welsh & other humanities societies", v: "Figure of Eight to Snobs, Broad Street", a: "broad", p: "Society tickets", soc: true, h: "uobhistorysociety", tag: "Bar crawl" },
   { d: "2026-11-19", t: "22:00", e: "04:00", n: "Punjabi takeover night", by: "Punjabi Society (with Cambridge & Aston)", v: "Rosie's, Broad Street", a: "broad", p: "Society tickets", soc: true, h: "uobpunjabisoc" },
   { d: "2026-11-20", t: "19:15", n: "Persian bar crawl, Selly Oak to Jewellery Quarter", by: "Iranian Society", v: "Starts at The Soak, Selly Oak", a: "selly", p: "See post", soc: true, h: "uobiraniansociety", tag: "Bar crawl" },
+  { d: "2026-11-20", t: "21:00", e: "01:00", n: "Sip & Shuffle: music, drinks, snacks and games", by: "Balkan Society", v: "Location in the members' group chat", p: "Members", soc: true, h: "uob.balkan" },
   { d: "2026-11-21", t: "18:30", e: "22:00", n: "Single's Inferno pub night", by: "Korea Society (UBKS)", v: "Beorma Bar, Guild", a: "selly", p: "£12 / £15", soc: true, h: "ubks_official" },
   { d: "2026-11-21", t: "TBC", n: "Pub crawl by train, Birmingham to Shrewsbury", by: "RailSoc x Real Ale & Cider Society", v: "Birmingham to Shrewsbury", a: "trip", p: "See post", soc: true, h: "uobrailsoc", tag: "Pub crawl" },
   { d: "2026-11-21", t: "TBC", n: "UPRAWR night out", by: "Metal Society (RAM Soc)", v: "The Asylum", a: "digbeth", p: "See post", soc: true, h: "uob.ram.soc" },

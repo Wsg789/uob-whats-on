@@ -51,6 +51,7 @@
   // venue plus area, unless the venue already names the area (e.g. "Rosie's, Broad Street")
   var AREA_WORDS = { selly: /selly oak/i, broad: /broad st/i, digbeth: /digbeth/i, trip: /^$/ };
   function place(n) {
+    if (!AREAS[n.a]) return n.v; // area not known (e.g. location only in a society's group chat)
     return AREA_WORDS[n.a] && AREA_WORDS[n.a].test(n.v) ? n.v : n.v + " · " + AREAS[n.a];
   }
 
