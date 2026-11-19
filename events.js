@@ -80,6 +80,7 @@ const EVENTS = [
 {"d": "2026-11-20", "t": "18:00-22:00", "s": "Esports Society", "e": "Arcane Season 1 watch party, session 2 (episodes 5-9; no membership needed)", "l": "University House G05", "h": "uob_esports"},
 {"d": "2026-11-20", "t": "18:30-20:00", "s": "ABACUS", "e": "Winter ice skating (sign-up required)", "l": "Ice Skate Birmingham, B1 2ND", "h": "uobabacus"},
 {"d": "2026-11-20", "t": "19:15", "s": "Iranian Society", "e": "Persian bar crawl, Selly Oak to Jewellery Quarter", "l": "Starting at The Soak", "h": "uobiraniansociety"},
+{"d": "2026-11-20", "t": "21:00-01:00", "s": "Balkan Society", "e": "Sip & Shuffle: music, drinks, snacks and games", "l": "Location in the members' group chat", "h": "uob.balkan"},
 {"d": "2026-11-20", "t": "TBC", "s": "ACMC", "e": "Waist beads and charms making fundraiser", "l": "Not specified", "h": "uobacmc"},
 {"d": "2026-11-20", "t": "TBC", "s": "Business Society", "e": "Forvis Mazars office visit (members only, 13 places)", "l": "Forvis Mazars office", "h": "uobbusinesssoc"},
 {"d": "2026-11-20", "t": "TBC", "s": "Quiz Society", "e": "Quizbowl practice", "l": "Not specified", "h": "uob.quizsoc"},
