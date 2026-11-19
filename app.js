@@ -32,7 +32,7 @@
     }
     return { tbc: true, start: null, end: null, main: /^tbc$/i.test(t) || !t ? "Time TBC" : t, sub: "" };
   }
-  function hasRoom(l) { return !/^(not specified|tbc|online|location by dm|dm |sent to whatsapp|see the society)/i.test(l) && !/room tbc/i.test(l); }
+  function hasRoom(l) { return !/^(not specified|tbc|online|location by dm|location in |dm |sent to whatsapp|see the society)/i.test(l) && !/room tbc|group ?chat|whatsapp/i.test(l); }
   function notAnnounced(l) { return /^(not specified|tbc)$/i.test(l.trim()); }
   function endMins(e) { return e.time.end !== null ? e.time.end : e.time.start + 120; }
 
