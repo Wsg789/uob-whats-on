@@ -77,6 +77,7 @@ const EVENTS = [
 {"d": "2026-11-20", "t": "14:00", "s": "Amnesty International", "e": "Conversations Over Coffee (Women's Rights Campaign)", "l": "Heybrew Espresso", "h": "uob.amnesty"},
 {"d": "2026-11-20", "t": "14:30", "s": "Socialist Students (with other Youth Strike societies)", "e": "International Youth Strike: city centre rally", "l": "Opposite Waterstones, High St, B4 7SL", "h": "birmingham_socialist_students_"},
 {"d": "2026-11-20", "t": "16:00-18:00", "s": "Kickboxing Society", "e": "Kickboxing session", "l": "Guild Underground", "h": "uobkickboxingofficial"},
+{"d": "2026-11-20", "t": "18:00-22:00", "s": "Esports Society", "e": "Arcane Season 1 watch party, session 2 (episodes 5-9; no membership needed)", "l": "University House G05", "h": "uob_esports"},
 {"d": "2026-11-20", "t": "18:30-20:00", "s": "ABACUS", "e": "Winter ice skating (sign-up required)", "l": "Ice Skate Birmingham, B1 2ND", "h": "uobabacus"},
 {"d": "2026-11-20", "t": "19:15", "s": "Iranian Society", "e": "Persian bar crawl, Selly Oak to Jewellery Quarter", "l": "Starting at The Soak", "h": "uobiraniansociety"},
 {"d": "2026-11-20", "t": "TBC", "s": "ACMC", "e": "Waist beads and charms making fundraiser", "l": "Not specified", "h": "uobacmc"},
