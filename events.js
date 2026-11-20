@@ -120,6 +120,7 @@ const EVENTS = [
 {"d": "2026-11-25", "t": "TBC", "s": "Commercial Law Society", "e": "Lunch with a Leader: Sarah Lee (Slaughter & May); apply by 4 Nov", "l": "Not specified", "h": "uobcls"},
 {"d": "2026-11-25", "t": "TBC", "s": "Tabletop Gaming Society", "e": "Infinity game demo with Element Games (free)", "l": "War Games session (room not specified)", "h": "uobtabletopgaming"},
 {"d": "2026-11-25", "t": "TBC", "s": "Wayfarers Hiking Society", "e": "Walk coordinator theory session", "l": "TBC", "h": "wayfarersbham"},
+{"d": "2026-11-26", "t": "13:00-18:00", "s": "IBM Z Society", "e": "Enterprise Mini-Conference with Microsoft, IBM, BMC and more: talks, then speed networking with free pizza and refreshments (16:00-18:00)", "l": "Room G33, Winifred Hackett Building (Y3)", "h": "ibmz.bham"},
 {"d": "2026-11-26", "t": "TBC", "s": "Musical Theatre Group", "e": "Break a Leg (26-28 Nov)", "l": "Not specified", "h": "gmtgbrum"},
 {"d": "2026-11-26", "t": "TBC", "s": "Film Society", "e": "Jumanji screening (with Sober Socials)", "l": "Nuffield (room TBC)", "h": "filmsocbham"},
 {"d": "2026-11-27", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},

@@ -213,6 +213,19 @@
         "l": "Beorma Bar, Guild of Students"
       },
       "note": "ISA DM, 20 Nov 2026: keeps the event through the 23 Nov weekly rebuild"
+    },
+    {
+      "handle": "ibmz.bham",
+      "date": "2026-11-26",
+      "match": "Mini-Conference",
+      "action": "add",
+      "set": {
+        "t": "13:00-18:00",
+        "s": "IBM Z Society",
+        "e": "Enterprise Mini-Conference with Microsoft, IBM, BMC and more: talks, then speed networking with free pizza and refreshments (16:00-18:00)",
+        "l": "Room G33, Winifred Hackett Building (Y3)"
+      },
+      "note": "IBM Z Society DM (Josh, president), 20 Nov 2026: keeps the event through the 23 Nov weekly rebuild"
     }
   ],
   "never_list": []
