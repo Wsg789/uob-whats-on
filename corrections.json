@@ -200,6 +200,19 @@
         "l": "Nuffield, Room G17"
       },
       "note": "Sober Socials weekly poster (every Wed 4-7pm MLC LG14, every Fri 7-10pm Nuffield G17), owner 19 Nov 2026; added to the end of autumn term (11 Dec)"
+    },
+    {
+      "handle": "isa_uob",
+      "date": "2026-11-25",
+      "match": "tea social",
+      "action": "add",
+      "set": {
+        "t": "12:00",
+        "s": "International Students' Association x CSSA (Chinese Students and Scholars Association)",
+        "e": "Cross-cultural tea social: random groups, mystery conversation topics, free Chinese and international snacks (free, sign up via the form in their bio)",
+        "l": "Beorma Bar, Guild of Students"
+      },
+      "note": "ISA DM, 20 Nov 2026: keeps the event through the 23 Nov weekly rebuild"
     }
   ],
   "never_list": []
