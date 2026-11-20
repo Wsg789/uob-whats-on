@@ -103,7 +103,7 @@ const EVENTS = [
 {"d": "2026-11-21", "t": "TBC", "s": "Wayfarers Hiking Society", "e": "Lake District weekend", "l": "Lake District", "h": "wayfarersbham"},
 {"d": "2026-11-22", "t": "03:00-06:00", "s": "Formula 1 Society", "e": "Las Vegas Grand Prix watch party and sim racing (£12/£15)", "l": "F1 Arcade", "h": "uobf1.society"},
 {"d": "2026-11-22", "t": "12:00-15:00", "s": "MathSoc", "e": "Imperial Cambridge Mathematics Competition, Round 1", "l": "On campus", "h": "mathsoc"},
-{"d": "2026-11-22", "t": "12:00-16:00", "s": "Canadian Society", "e": "International Takeover Football Match", "l": "St. Andrews Stadium, Cattell Rd, Birmingham B9 4RL", "h": "uobcanadiansociety"},
+{"d": "2026-11-22", "t": "12:00-16:00", "s": "BCFC Society (with Canadian Society)", "e": "International Takeover: Birmingham City Women match", "l": "St. Andrews Stadium, Cattell Rd, Birmingham B9 4RL", "h": "bcfc_uob"},
 {"d": "2026-11-22", "t": "15:00-16:30", "s": "MMA Society", "e": "Striking (Aiden Lee)", "l": "Sports and Fitness Dojo, second floor", "h": "uob_mma"},
 {"d": "2026-11-23", "t": "17:45", "s": "Japan Society", "e": "Christmas social: ice skating (19:00) and Christmas Market", "l": "Meet at University Station; Ice Skate Birmingham", "h": "uobjapansociety"},
 {"d": "2026-11-23", "t": "19:00-00:00", "s": "Canadian Society", "e": "The Pear-fect Quiz Night (free tickets)", "l": "Bristol Pear, 676 Bristol Road, Selly Oak", "h": "uobcanadiansociety"},
