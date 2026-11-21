@@ -2,6 +2,62 @@
   "about": "Manual corrections requested by societies. The weekly update applies these after it builds the list, so they are not overwritten. Remove an entry once its event date has passed.",
   "corrections": [
     {
+      "handle": "uob.ram.soc",
+      "date": "2026-11-21",
+      "match": "UPRAWR",
+      "action": "replace",
+      "set": { "t": "23:00" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "uob_pokesoc",
+      "date": "2026-11-21",
+      "match": "tournament",
+      "action": "replace",
+      "set": { "t": "15:00-18:00", "e": "VGC tournament (replaces cancelled Warwick collab)", "l": "Murray Learning Centre UG05" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "uobrailsoc",
+      "date": "2026-11-21",
+      "match": "Shrewsbury",
+      "action": "replace",
+      "set": { "t": "09:00", "l": "London and North Western Wetherspoons, New Street" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "watchthisuob",
+      "date": "2026-11-21",
+      "match": "IMPROVABUNGA",
+      "action": "replace",
+      "set": { "t": "20:00", "e": "IMPROVABUNGA (doors 19:30)" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-21",
+      "match": "Trash in the Attic",
+      "action": "replace",
+      "set": { "t": "All day" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "brumsurfuob",
+      "date": "2026-11-21",
+      "match": "Pembrokeshire",
+      "action": "replace",
+      "set": { "t": "All day" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
+      "handle": "wayfarersbham",
+      "date": "2026-11-21",
+      "match": "Lake District",
+      "action": "replace",
+      "set": { "t": "All day" },
+      "note": "Read from the society's own post image, 21 Nov 2026"
+    },
+    {
       "handle": "uobsingsoc",
       "date": "2026-11-13",
       "match": "Deepavali",
