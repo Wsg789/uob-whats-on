@@ -6,7 +6,12 @@
       "date": "2026-12-04",
       "match": "jam",
       "action": "add",
-      "set": { "t": "20:00-00:00", "s": "Jazz Funk & Soul Society", "e": "Jazz, funk & soul jam (bring an instrument or just come)", "l": "HeyBrew, Selly Oak" },
+      "set": {
+        "t": "20:00-00:00",
+        "s": "Jazz Funk & Soul Society",
+        "e": "Jazz, funk & soul jam (bring an instrument or just come)",
+        "l": "HeyBrew, Selly Oak"
+      },
       "note": "HeyBrew DM, 21 Nov 2026: Jazz Funk & Soul jam every other Friday at HeyBrew, 20:00-00:00 (time from @uobjfs's 20 Nov poster). 4 Dec inferred: fortnightly after 20 Nov, which @uobjfs called the penultimate jam of term. Add later dates when announced."
     },
     {
@@ -14,7 +19,9 @@
       "date": "2026-11-21",
       "match": "UPRAWR",
       "action": "replace",
-      "set": { "t": "23:00" },
+      "set": {
+        "t": "23:00"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -22,7 +29,11 @@
       "date": "2026-11-21",
       "match": "tournament",
       "action": "replace",
-      "set": { "t": "15:00-18:00", "e": "VGC tournament (replaces cancelled Warwick collab)", "l": "Murray Learning Centre UG05" },
+      "set": {
+        "t": "15:00-18:00",
+        "e": "VGC tournament (replaces cancelled Warwick collab)",
+        "l": "Murray Learning Centre UG05"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -30,7 +41,10 @@
       "date": "2026-11-21",
       "match": "Shrewsbury",
       "action": "replace",
-      "set": { "t": "09:00", "l": "London and North Western Wetherspoons, New Street" },
+      "set": {
+        "t": "09:00",
+        "l": "London and North Western Wetherspoons, New Street"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -38,7 +52,10 @@
       "date": "2026-11-21",
       "match": "IMPROVABUNGA",
       "action": "replace",
-      "set": { "t": "20:00", "e": "IMPROVABUNGA (doors 19:30)" },
+      "set": {
+        "t": "20:00",
+        "e": "IMPROVABUNGA (doors 19:30)"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -46,7 +63,9 @@
       "date": "2026-11-21",
       "match": "Trash in the Attic",
       "action": "replace",
-      "set": { "t": "All day" },
+      "set": {
+        "t": "All day"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -54,7 +73,9 @@
       "date": "2026-11-21",
       "match": "Pembrokeshire",
       "action": "replace",
-      "set": { "t": "All day" },
+      "set": {
+        "t": "All day"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -62,7 +83,9 @@
       "date": "2026-11-21",
       "match": "Lake District",
       "action": "replace",
-      "set": { "t": "All day" },
+      "set": {
+        "t": "All day"
+      },
       "note": "Read from the society's own post image, 21 Nov 2026"
     },
     {
@@ -290,6 +313,30 @@
         "l": "Room G33, Winifred Hackett Building (Y3)"
       },
       "note": "IBM Z Society DM (Josh, president), 20 Nov 2026: keeps the event through the 23 Nov weekly rebuild"
+    },
+    {
+      "handle": "uobcanadiansociety",
+      "date": "2026-12-04",
+      "match": "Holiday Bash",
+      "action": "replace",
+      "set": {
+        "t": "20:30-22:30",
+        "l": "The Birmingham Stable, 1 Orion, 115 John Bright St, B1 1BE"
+      },
+      "note": "Canadian Society's Nov/Dec calendar post (seen 21 Nov 2026) moves the Holiday Bash from Zizzi, The Mailbox to The Birmingham Stable"
+    },
+    {
+      "handle": "uobcanadiansociety",
+      "date": "2026-12-04",
+      "match": "Holiday Bash",
+      "action": "add",
+      "set": {
+        "t": "20:30-22:30",
+        "s": "Canadian Society",
+        "e": "Annual Holiday Bash",
+        "l": "The Birmingham Stable, 1 Orion, 115 John Bright St, B1 1BE"
+      },
+      "note": "Canadian Society's Nov/Dec calendar post (seen 21 Nov 2026) moves the Holiday Bash from Zizzi, The Mailbox to The Birmingham Stable; keeps the event if the scrape misses it"
     }
   ],
   "never_list": []
