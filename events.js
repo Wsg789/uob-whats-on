@@ -138,6 +138,7 @@ const EVENTS = [
 {"d": "2026-12-02", "t": "19:00-23:00", "s": "STAR Birmingham", "e": "Disco for Difference: end-of-semester fundraiser (£8/£10)", "l": "Hey Brew", "h": "starbirmingham"},
 {"d": "2026-12-03", "t": "TBC", "s": "Metal Society (RAM Soc)", "e": "Winter Ball", "l": "TBC", "h": "uob.ram.soc"},
 {"d": "2026-12-04", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
+{"d": "2026-12-04", "t": "20:00-00:00", "s": "Jazz Funk & Soul Society", "e": "Jazz, funk & soul jam (bring an instrument or just come)", "l": "HeyBrew, Selly Oak", "h": "uobjfs"},
 {"d": "2026-12-04", "t": "20:30-22:30", "s": "Canadian Society", "e": "Annual Holiday Bash", "l": "Zizzi, The Mailbox, Birmingham B1 1RL", "h": "uobcanadiansociety"},
 {"d": "2026-12-04", "t": "TBC", "s": "Guild Musical Theatre Group", "e": "Our House (4-6 Dec)", "l": "Deb Hall, Guild of Students", "h": "gmtgbrum"},
 {"d": "2026-12-05", "t": "09:00-16:00", "s": "NerdSoc", "e": "MEGACON trip (14 discounted £20 tickets)", "l": "Birmingham NEC", "h": "uob_nerdsoc"},

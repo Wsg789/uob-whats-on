@@ -2,6 +2,14 @@
   "about": "Manual corrections requested by societies. The weekly update applies these after it builds the list, so they are not overwritten. Remove an entry once its event date has passed.",
   "corrections": [
     {
+      "handle": "uobjfs",
+      "date": "2026-12-04",
+      "match": "jam",
+      "action": "add",
+      "set": { "t": "20:00-00:00", "s": "Jazz Funk & Soul Society", "e": "Jazz, funk & soul jam (bring an instrument or just come)", "l": "HeyBrew, Selly Oak" },
+      "note": "HeyBrew DM, 21 Nov 2026: Jazz Funk & Soul jam every other Friday at HeyBrew, 20:00-00:00 (time from @uobjfs's 20 Nov poster). 4 Dec inferred: fortnightly after 20 Nov, which @uobjfs called the penultimate jam of term. Add later dates when announced."
+    },
+    {
       "handle": "uob.ram.soc",
       "date": "2026-11-21",
       "match": "UPRAWR",
