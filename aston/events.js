@@ -1,0 +1,25 @@
+const EVENTS = [
+{"d": "2026-11-21", "t": "All day", "s": "Hindu Society", "e": "NHSF Zonals 2026: Aston's football and badminton teams compete", "l": "Not specified", "h": "astonhindusociety"},
+{"d": "2026-11-22", "t": "12:30", "s": "Islamic Society", "e": "Litter pick with PureStreets (Believe and Do Good), social afterwards", "l": "Small Heath Park, Birmingham", "h": "astonisoc"},
+{"d": "2026-11-23", "t": "13:00-14:00", "s": "Aston European Affairs Society", "e": "The UK-EU Summit: What Happened and What Comes Next? Panel with Aston Centre for Europe", "l": "MB406", "h": "astoneuropeansoc"},
+{"d": "2026-11-23", "t": "17:15-19:30", "s": "Sikh Society", "e": "Kirtan on Campus", "l": "MLK Building", "h": "astonsikhs"},
+{"d": "2026-11-23", "t": "17:30-19:30", "s": "Economics & Finance Society", "e": "Insight into Asset Management: student panel and Q&A (AEFS members)", "l": "MB108", "h": "astoneconsoc"},
+{"d": "2026-11-24", "t": "17:00", "s": "Nepalese Society", "e": "Karaoke Night (meet at the SU at 5pm; tickets on the SU website)", "l": "Boom Battle Bar", "h": "nepsocaston"},
+{"d": "2026-11-24", "t": "17:15", "s": "Islamic Society", "e": "Roots workshop (weekly Seerah session)", "l": "MB651 last week; check their Instagram", "h": "astonisoc"},
+{"d": "2026-11-25", "t": "14:00-16:00", "s": "Islamic Society", "e": "Sisters' pottery painting (£12 + your piece)", "l": "Glaze Room Pottery Painting, Jewellery Quarter", "h": "astonisoc"},
+{"d": "2026-11-25", "t": "18:00-19:30", "s": "Afro Caribbean Society (ACS)", "e": "Wednesday Night Wetherspoons: after-hours social (every two weeks)", "l": "The London and North Western, New Street Station", "h": "aston_acs"},
+{"d": "2026-11-26", "t": "17:30-21:00", "s": "Sikh Society", "e": "Evening event, sign-up via their bio (name not given in the caption)", "l": "STEAMhouse", "h": "astonsikhs"},
+{"d": "2026-11-26", "t": "19:00-22:00", "s": "ABACUS Society", "e": "Christmas movie night (sign-up form in bio)", "l": "MB185", "h": "astonabacus"},
+{"d": "2026-11-27", "t": "17:30-19:30", "s": "Surgical Society", "e": "Surgical Escape Room (Medical students)", "l": "Tutorial Rooms (Medical School)", "h": "astonsurgsoc"},
+{"d": "2026-11-27", "t": "TBC", "s": "Ahlul Bayt Society", "e": "AI in Action: panel discussion (BAYN x Inter-ABSOC)", "l": "Transition Hall", "h": "astonabsoc"},
+{"d": "2026-12-02", "t": "14:30-16:00", "s": "Economics & Finance Society", "e": "Christmas staff and student social: crafts, quizzes, food (Economics students only)", "l": "MB512", "h": "astoneconsoc"},
+{"d": "2026-12-02", "t": "15:00-16:00", "s": "Pharmacy Association Society", "e": "Ice skating (register on the SU website by 24 Nov)", "l": "Ice Skate Birmingham, Centenary Square", "h": "aston_pharmsoc"},
+{"d": "2026-12-02", "t": "17:00-18:00", "s": "Filipino Society", "e": "Inter-uni Filipino societies ice skating (tickets by 25 Nov)", "l": "Centenary Square, Broad St", "h": "astonfilsoc"},
+{"d": "2026-12-02", "t": "19:30", "s": "DJ Society (ADJ)", "e": "Open Deck Night with BCU's live sound society", "l": "The Eagle and Ball", "h": "astondjsociety"},
+{"d": "2026-12-03", "t": "23:00-03:00", "s": "Tamil Society", "e": "Frostbite Vol. 1 (club night with Leicester Mallu Soc and Keele Desi Soc)", "l": "Evolution, Leicester", "h": "astontsoc"},
+{"d": "2026-12-04", "t": "18:30", "s": "Ahlul Bayt Society", "e": "Celebrating the birth of Sayeda Fatima (Leicester AbSoc; £15)", "l": "Charles Wilson Building, University of Leicester", "h": "astonabsoc"},
+{"d": "2026-12-06", "t": "TBC", "s": "Tamil Society", "e": "Kings of Gaana 2026: Team Aston competes", "l": "Troxy, London", "h": "astontsoc"},
+{"d": "2026-12-11", "t": "17:00-21:00", "s": "Tamil Society", "e": "Antarctica: inter-uni winter games night (Aston Tamil Society collaborating)", "l": "London", "h": "astontsoc"},
+{"d": "2026-12-12", "t": "TBC", "s": "Humanitarian Relief Society", "e": "Scafell Pike charity hike for Myanmar (£35, sign up by 25 Nov)", "l": "Scafell Pike", "h": "aston_hrsoc"}
+];
+const META = {"from": "2026-11-21", "updated": "21 November 2026", "window": "14 – 21 November 2026", "uni": "Aston University", "groups": 126, "accounts": 97, "posts": 96};

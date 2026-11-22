@@ -80,7 +80,7 @@
     els.eyebrow.textContent = longDate(todayIso);
     els.lede.innerHTML = (todays.length ? todays.length + (todays.length === 1 ? " event" : " events") + " today" +
       (live ? ' (<span class="intro-live">' + live + " on now</span>)" : "") + " and " : "") +
-      nWeek + " over the next seven days, from " + META.accounts + " University of Birmingham society accounts.";
+      nWeek + " over the next seven days, from " + META.accounts + " " + (META.uni || "University of Birmingham") + " society accounts.";
     els.updated.textContent = "List updated " + META.updated + ".";
   }
 
@@ -253,4 +253,10 @@
 
   render();
   openHash();
+})();
+
+// University switcher in the header (Birmingham | Aston | Warwick)
+(function () {
+  var s = document.getElementById("uni");
+  if (s) s.addEventListener("change", function () { if (s.value) location.href = s.value; });
 })();

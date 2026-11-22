@@ -342,3 +342,14 @@ a { color: inherit; }
   .logos img { width: 22px; height: 22px; }
   .logos { vertical-align: -6px; margin-right: 6px; }
 }
+
+/* ---------- university switcher (21 Nov 2026) ---------- */
+.uni-pick { position: relative; display: inline-flex; align-items: center; }
+.uni-pick select {
+  appearance: none; -webkit-appearance: none; font: inherit; font-size: 12.5px; font-weight: 600; color: var(--ink-2);
+  background: var(--surface-2); border: 1px solid var(--line); border-radius: 999px; padding: 4px 24px 4px 10px; cursor: pointer;
+}
+.uni-pick select:hover { color: var(--ink); border-color: var(--line-strong); }
+.uni-pick select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.uni-pick::after { content: ""; position: absolute; right: 10px; top: 50%; width: 6px; height: 6px; margin-top: -4px;
+  border-right: 1.5px solid var(--ink-3); border-bottom: 1.5px solid var(--ink-3); transform: rotate(45deg); pointer-events: none; }
