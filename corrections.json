@@ -337,6 +337,19 @@
         "l": "The Birmingham Stable, 1 Orion, 115 John Bright St, B1 1BE"
       },
       "note": "Canadian Society's Nov/Dec calendar post (seen 21 Nov 2026) moves the Holiday Bash from Zizzi, The Mailbox to The Birmingham Stable; keeps the event if the scrape misses it"
+    },
+    {
+      "handle": "isa_uob",
+      "date": "2026-11-27",
+      "match": "Latin Night",
+      "action": "add",
+      "set": {
+        "t": "23:00-03:00",
+        "s": "International Students' Association x Vibra Latina",
+        "e": "Latin Night: reggaeton, dembow, salsa and bachata (code SOCIETY20 for 20% off tickets; dress to impress, 18+, ID needed)",
+        "l": "Chinawhite, 30 Ladywell Walk, B5 4ST"
+      },
+      "note": "ISA sent the details by DM (22 Nov 2026): Latin Night x Vibra Latina at Chinawhite; time from the Entry ticket page (11pm-3am)"
     }
   ],
   "never_list": []

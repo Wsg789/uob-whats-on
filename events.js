@@ -124,6 +124,7 @@ const EVENTS = [
 {"d": "2026-11-26", "t": "TBC", "s": "Musical Theatre Group", "e": "Break a Leg (26-28 Nov)", "l": "Not specified", "h": "gmtgbrum"},
 {"d": "2026-11-26", "t": "TBC", "s": "Film Society", "e": "Jumanji screening (with Sober Socials)", "l": "Nuffield (room TBC)", "h": "filmsocbham"},
 {"d": "2026-11-27", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
+{"d": "2026-11-27", "t": "23:00-03:00", "s": "International Students' Association x Vibra Latina", "e": "Latin Night: reggaeton, dembow, salsa and bachata (code SOCIETY20 for 20% off tickets; dress to impress, 18+, ID needed)", "l": "Chinawhite, 30 Ladywell Walk, B5 4ST", "h": "isa_uob"},
 {"d": "2026-11-27", "t": "TBC", "s": "Sikhs in Law", "e": "Midlands winter social: German markets and ice rink", "l": "German Winter Markets, Birmingham", "h": "sikhsinlawuob"},
 {"d": "2026-11-28", "t": "TBC", "s": "ACS (with In The Moment, Warwick)", "e": "Toca Takeover", "l": "Toca Social, Birmingham", "h": "acsuob"},
 {"d": "2026-11-28", "t": "TBC", "s": "Tamil Society (with Birmingham Mallu Soc)", "e": "Kodiyettam 3.0 Mallu night", "l": "TBC", "h": "uobtamilsoc"},
