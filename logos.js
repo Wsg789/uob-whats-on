@@ -284,15 +284,18 @@ const SOCIETY_LOGOS = [
   {n: "Zumba", h: "", f: "logos/s/zumba.png"}
 ];
 const NIGHT_LOGOS = {
-  "Switch": "logos/n/switch.png",
-  "Birmingham Student Events": "logos/n/birmingham-student-events.png",
-  "Rosies x Students": "logos/n/rosies-x-students.png",
   "Circo": "logos/n/circo.png",
   "Naughty Horse": "logos/n/naughty-horse.png",
-  "Snobs x Students": "logos/n/snobs-x-students.png",
-  "Club 200 x Students": "logos/n/club-200-x-students.png",
-  "TRIP": "logos/n/trip.png",
-  "Chocolate University": "logos/n/chocolate-university.png",
+  "Switch": "logos/n/switch.png",
+  "Chocolate Entertainment": "logos/n/chocolate-entertainment.png",
+  "Vodbull": "logos/n/vodbull.png",
+  "ROSIES Birmingham x Students": "logos/n/rosies-birmingham-x-students.png",
+  "CLUB 200 x Students": "logos/n/club-200-x-students.png",
+  "Snobs Birmingham": "logos/n/snobs-birmingham.png",
+  "Bollynights Birmingham": "logos/n/bollynights-birmingham.png",
+  "Empire Project Events": "logos/n/empire-project-events.png",
+  "Desi Beatz Midlands": "logos/n/desi-beatz-midlands.png",
+  "Jawani Nights": "logos/n/jawani-nights.png",
   "The Goose": "logos/n/the-goose.png",
   "Guild of Students": "logos/n/guild-of-students.png",
   "Lab11": "logos/n/lab11.png"
