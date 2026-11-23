@@ -6,6 +6,7 @@ const EVENTS = [
 {"d": "2026-11-25", "t": "14:00-16:00", "s": "Islamic Society", "e": "Sisters' pottery painting (£12 + cost of item, sign up via bio)", "l": "Glaze Room Pottery Painting, Jewellery Quarter", "h": "astonisoc"},
 {"d": "2026-11-25", "t": "16:00", "s": "Create ‘n' Cosy Society", "e": "Pyjamas & craft party (£2, tickets via SU website)", "l": "MB603", "h": "createncosy"},
 {"d": "2026-11-25", "t": "18:00-19:30", "s": "Afro Caribbean Society (ACS)", "e": "After-hours social: Wednesday Night Wetherspoons (every two weeks)", "l": "The London and North Western, New Street Station", "h": "aston_acs"},
+{"d": "2026-11-26", "t": "12:00-14:00", "s": "Aston Computer Science Society", "e": "Go-kart racing (£22 members, £26 non-members)", "l": "Teamworks Karting Digbeth", "h": "astoncss"},
 {"d": "2026-11-26", "t": "18:00-20:00", "s": "Paediatrics Society", "e": "Meet & greet with food and games", "l": "SU Rooms 4 & 5", "h": "astonpaedsoc"},
 {"d": "2026-11-26", "t": "19:00-22:00", "s": "ABACUS Society", "e": "Christmas movie night (sign up via bio)", "l": "MB 185", "h": "astonabacus"},
 {"d": "2026-11-27", "t": "13:00-16:00", "s": "Filipino Society", "e": "Brum vs Keele volleyball showdown", "l": "Alderton Hall", "h": "astonfilsoc"},
