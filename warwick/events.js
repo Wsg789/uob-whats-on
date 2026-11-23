@@ -196,6 +196,7 @@ const EVENTS = [
 {"d": "2026-11-27", "t": "17:00", "s": "Who Soc", "e": "Doctor Who chronological screening: The Empty Child / The Doctor Dances", "l": "S0.19", "h": "warwickwhosoc"},
 {"d": "2026-11-27", "t": "17:00-19:00", "s": "Warwick Left Society", "e": "Slime making social (caucus members only)", "l": "A0.14", "h": "warwickleftsoc"},
 {"d": "2026-11-27", "t": "17:00-20:00", "s": "Darts Society", "e": "Darts weekly practice (free)", "l": "Fusion Bar", "h": "warwickdarts"},
+{"d": "2026-11-27", "t": "17:00-18:00", "s": "Warwick Organisational Behaviour Society (WOBS)", "e": "Behavioural Lab #3: make decisions, challenge your thinking, discover the science", "l": "S0.17", "h": "warwick_wobs"},
 {"d": "2026-11-27", "t": "18:00-20:00", "s": "Rock Soc", "e": "Rock Society quiz", "l": "MS.03", "h": "warwickrocksociety"},
 {"d": "2026-11-27", "t": "18:00-21:30", "s": "Warwick Salsa", "e": "Bachata class, all levels (classes 18:00-20:00, then social dancing, then T-Bar; cash)", "l": "Copper Rooms", "h": "warwicksalsa"},
 {"d": "2026-11-27", "t": "18:30", "s": "African & Caribbean Society", "e": "ACS annual Slumber Party", "l": "OC0.04", "h": "warwick.acs"},
