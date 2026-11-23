@@ -350,6 +350,84 @@
         "l": "Chinawhite, 30 Ladywell Walk, B5 4ST"
       },
       "note": "ISA sent the details by DM (22 Nov 2026): Latin Night x Vibra Latina at Chinawhite; time from the Entry ticket page (11pm-3am)"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-23",
+      "match": "quiz",
+      "action": "replace",
+      "set": {
+        "t": "20:00-late",
+        "s": "Quiz Society",
+        "e": "Pub quiz (all members welcome, £2.50 entry)",
+        "l": "The Bristol Pear"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-23",
+      "match": "quiz",
+      "action": "add",
+      "set": {
+        "t": "20:00-late",
+        "s": "Quiz Society",
+        "e": "Pub quiz (all members welcome, £2.50 entry)",
+        "l": "The Bristol Pear"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild; adds it if the scrape misses it"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-25",
+      "match": "quiz",
+      "action": "replace",
+      "set": {
+        "t": "18:00-20:00",
+        "s": "Quiz Society",
+        "e": "Social quiz: music quiz from the 70s to the 2010s, hosted by James",
+        "l": "University House 110"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-25",
+      "match": "quiz",
+      "action": "add",
+      "set": {
+        "t": "18:00-20:00",
+        "s": "Quiz Society",
+        "e": "Social quiz: music quiz from the 70s to the 2010s, hosted by James",
+        "l": "University House 110"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild; adds it if the scrape misses it"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-27",
+      "match": "quiz",
+      "action": "replace",
+      "set": {
+        "t": "19:00-21:00",
+        "s": "Quiz Society",
+        "e": "Quizbowl: University Challenge-style quizzing, prep for trials and tournaments",
+        "l": "UG07, Murray Learning Centre"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild"
+    },
+    {
+      "handle": "uob.quizsoc",
+      "date": "2026-11-27",
+      "match": "quiz",
+      "action": "add",
+      "set": {
+        "t": "19:00-21:00",
+        "s": "Quiz Society",
+        "e": "Quizbowl: University Challenge-style quizzing, prep for trials and tournaments",
+        "l": "UG07, Murray Learning Centre"
+      },
+      "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild; adds it if the scrape misses it"
     }
   ],
   "never_list": []
