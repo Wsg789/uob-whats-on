@@ -114,6 +114,7 @@ const EVENTS = [
 {"d": "2026-11-25", "t": "18:00", "s": "Warwick Language Society", "e": "Online language class (Teams)", "l": "Online (Microsoft Teams)", "h": "warwicklanguagesociety"},
 {"d": "2026-11-25", "t": "18:00-20:00", "s": "East African Society", "e": "Family Feud game night", "l": "MS.03, Zeeman Building", "h": "warwickeasoc"},
 {"d": "2026-11-25", "t": "18:00-20:00", "s": "Wildlife Conservation Society", "e": "Wildlife Documentary Night", "l": "FAB1.15", "h": "wildlifeconservationwarwick"},
+{"d": "2026-11-25", "t": "18:00", "s": "Warwick Asian Society", "e": "Sip & Paint: painting, Jägerbombs, wine and music (£4 non-alc, £5 alc; tickets on Clubbr)", "l": "H1.48", "h": "warwickasiansociety"},
 {"d": "2026-11-25", "t": "18:30-19:30", "s": "93% Club Warwick", "e": "Talk: Paul Cleal OBE, from Warwick to the FA", "l": "FAB 0.08", "h": "93clubwarwick"},
 {"d": "2026-11-25", "t": "18:30-19:30", "s": "Economics Society", "e": "Diverse Speaker fireside chat", "l": "S0.20", "h": "warwickeconsoc"},
 {"d": "2026-11-25", "t": "18:30-20:00", "s": "Francophone Society", "e": "Cookies, Candles & Company", "l": "JX2.03", "h": "warwickfrancophonesociety"},
