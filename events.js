@@ -79,6 +79,7 @@ const EVENTS = [
 {"d": "2026-11-26", "t": "19:00-21:00", "s": "Brumski & Board Club", "e": "Beginner ski & snowboard lesson (transport and kit included)", "l": "Stoke Ski Centre", "h": "brumskiandboard"},
 {"d": "2026-11-26", "t": "19:00", "s": "Film Society", "e": "Spoilers film quiz trip", "l": "Spoilers", "h": "filmsocbham"},
 {"d": "2026-11-26", "t": "19:00-21:30", "s": "Latin American Society (LATAM UoB)", "e": "Telenovela Night (subject to change, check their WhatsApp)", "l": "Teaching and Learning Building 202", "h": "latamuob"},
+{"d": "2026-11-26", "t": "19:00-21:30", "s": "Accounting and Finance Society (ANF)", "e": "Games Night: vote on Roblox, Among Us, Kahoot and more (help with upcoming ANF assignments too)", "l": "Teaching and Learning Building M218", "h": "uobanf"},
 {"d": "2026-11-26", "t": "19:45", "s": "PPE Society", "e": "Pub golf night", "l": "TBC (committee member's house)", "h": "uobppe"},
 {"d": "2026-11-26", "t": "20:00", "s": "Birmingham Asian Society (ASOC)", "e": "Sip n Paint, ASOC edition", "l": "Circo Bar, Selly Oak", "h": "birminghamasoc"},
 {"d": "2026-11-26", "t": "21:30", "s": "Women in Finance Society x Business Society", "e": "Bar crawl: Figure of Eight, Coyote, Barbara's", "l": "Figure of Eight (start)", "h": "uob_womeninfinance"},
