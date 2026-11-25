@@ -134,19 +134,6 @@
     {
       "handle": "filmsocbham",
       "date": "2026-11-26",
-      "match": "Jumanji",
-      "action": "add",
-      "set": {
-        "t": "TBC",
-        "s": "Film Society",
-        "e": "Jumanji screening (with Sober Socials)",
-        "l": "Nuffield (room TBC)"
-      },
-      "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26); room to be confirmed by the society"
-    },
-    {
-      "handle": "filmsocbham",
-      "date": "2026-11-26",
       "match": "Rocky Horror",
       "action": "remove",
       "note": "Film Society DM, 16 Nov 2026: their calendar image has the wrong dates (26 -> 25, 27 -> 26)"
@@ -428,6 +415,20 @@
         "l": "UG07, Murray Learning Centre"
       },
       "note": "Quiz Society 'Weekly Update' post for Week 9 (seen 23 Nov 2026, posted after the weekly run): poster times; keeps the events through the 23 Nov weekly rebuild; adds it if the scrape misses it"
+    },
+    {
+      "handle": "uob.fashionsoc",
+      "date": "2026-11-26",
+      "match": "Buffet",
+      "action": "remove",
+      "note": "Fashion Society DM, 25 Nov 2026: buffet social cancelled"
+    },
+    {
+      "handle": "filmsocbham",
+      "date": "2026-11-26",
+      "match": "Jumanji",
+      "action": "remove",
+      "note": "Film Society DM, 24 Nov 2026: not going ahead (room booking trouble)"
     }
   ],
   "never_list": []
