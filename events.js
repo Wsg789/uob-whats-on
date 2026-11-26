@@ -92,6 +92,7 @@ const EVENTS = [
 {"d": "2026-11-27", "t": "19:00-21:00", "s": "Sign Language Society", "e": "BSL revision social (free pizza)", "l": "Murray Learning Centre, UG10", "h": "uobsignlanguage"},
 {"d": "2026-11-27", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
 {"d": "2026-11-27", "t": "19:00-21:30", "s": "Writers' Bloc", "e": "UniSlam poetry auditions", "l": "TLB LT2", "h": "uobwritersbloc"},
+{"d": "2026-11-27", "t": "19:00-21:30", "s": "Indian Society", "e": "Bollywood Movie Night: Chennai Express screening (snacks and drinks)", "l": "Murray Learning Centre, LG14", "h": "uobindiansoc"},
 {"d": "2026-11-27", "t": "19:15", "s": "Film Society", "e": "Cinema trip: Arrival", "l": "Cineworld Broad Street", "h": "filmsocbham"},
 {"d": "2026-11-27", "t": "23:00-03:00", "s": "International Students' Association x VIBRA Latina", "e": "Latin Night: reggaeton, dembow, salsa and bachata (code SOCIETY20)", "l": "Chinawhite Birmingham", "h": "isa_uob"},
 {"d": "2026-11-27", "t": "TBC", "s": "Ahlulbayt Islamic Society x BAYN", "e": "AI in Action panel discussion", "l": "Transition Hall", "h": "uob_absoc"},

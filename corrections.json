@@ -429,6 +429,19 @@
       "match": "Jumanji",
       "action": "remove",
       "note": "Film Society DM, 24 Nov 2026: not going ahead (room booking trouble)"
+    },
+    {
+      "handle": "uobindiansoc",
+      "date": "2026-11-27",
+      "match": "Movie",
+      "action": "add",
+      "set": {
+        "t": "19:00-21:30",
+        "s": "Indian Society",
+        "e": "Bollywood Movie Night: Chennai Express screening (snacks and drinks)",
+        "l": "Murray Learning Centre, LG14"
+      },
+      "note": "DM from @uobindiansoc, 26 Nov 2026"
     }
   ],
   "never_list": []
