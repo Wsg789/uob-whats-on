@@ -1,6 +1,7 @@
 const EVENTS = [
 {"d": "2026-11-23", "t": "12:00-13:00", "s": "Warwick Trading Society", "e": "Quant Workshop: Brainteasers", "l": "OC1.01", "h": "warwicktradingsoc"},
 {"d": "2026-11-23", "t": "13:00-14:00", "s": "Warwick Women in Economics Society", "e": "Soft Skills Series 4: Interview & HireVue Workshop", "l": "FAB 5.03", "h": "warwickwomeninecon"},
+{"d": "2026-11-28", "t": "20:30", "s": "Warwick Albanian Society", "e": "Albanian Independence Day celebration (music and valle)", "l": "Canley (message the society for the address)", "h": "uwalbsoc"},
 {"d": "2026-11-23", "t": "13:00-14:00 (drop in)", "s": "Sociology Society", "e": "SocSoc lunch chat", "l": "A0.05", "h": "warwicksociologysoc"},
 {"d": "2026-11-23", "t": "13:00-15:00", "s": "Warwick Literature Society", "e": "Bake exchange (drop-in)", "l": "A1.11", "h": "warwicklitsoc"},
 {"d": "2026-11-23", "t": "14:00-15:00", "s": "EPP Society", "e": "Studying abroad Q&A with EPP students", "l": "OC1.02", "h": "warwickeppsociety"},

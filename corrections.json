@@ -442,6 +442,32 @@
         "l": "Murray Learning Centre, LG14"
       },
       "note": "DM from @uobindiansoc, 26 Nov 2026"
+    },
+    {
+      "handle": "enactus.birmingham",
+      "date": "2026-12-03",
+      "match": "Dragon",
+      "action": "add",
+      "set": {
+        "t": "15:00-17:00",
+        "s": "Enactus",
+        "e": "Festive Dragon's Den social with Business Society (bring your business ideas)",
+        "l": "Rosa Parks Room, Guild of Students"
+      },
+      "note": "DM from @enactus.birmingham, 26 Nov 2026"
+    },
+    {
+      "handle": "brumsocials",
+      "date": "2026-12-11",
+      "match": "Xmas",
+      "action": "add",
+      "set": {
+        "t": "20:00",
+        "s": "Brum Socials",
+        "e": "12 Drinks of Xmas bar crawl (six bars; tickets on sale Sun 29 Nov, 19:00)",
+        "l": "Digbeth (starting point)"
+      },
+      "note": "DM from @brumsocials, 26 Nov 2026"
     }
   ],
   "never_list": []

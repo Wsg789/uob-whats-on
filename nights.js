@@ -33,6 +33,7 @@ const NIGHTS = [
   { d: "2026-11-30", t: "22:00", n: "Barbara's Mondays", by: "Naughty Horse", v: "Barbara's Bier Haus", a: "broad", p: "from £3", url: "https://www.fatsoma.com/e/p7vcmv7t" },
   { d: "2026-11-30", t: "23:00", n: "Desi Beatz Winter Rave", by: "Desi Beatz Midlands", v: "Sophy, Digbeth", a: "digbeth", p: "from £3", url: "https://www.fatsoma.com/e/yh1plame" },
   { d: "2026-12-01", t: "19:00", e: "23:00", n: "Winter Ball (black tie)", by: "Investment & Finance Society x Economics Society x PPE Society", v: "Luna Springs", a: "digbeth", p: "Tickets on the Guild website", soc: true, h: "uobifs" },
+  { d: "2026-12-11", t: "20:00", n: "12 Drinks of Xmas bar crawl (six bars)", by: "Brum Socials", v: "Digbeth (starting point)", a: "digbeth", p: "Tickets on sale Sun 29 Nov, 19:00", url: "https://www.instagram.com/p/DgIjLjQjVnf/", tag: "Bar crawl", b: "Instagram", soc: true, h: "brumsocials" },
   { d: "2026-12-01", t: "20:00", e: "01:00", n: "Christmas Karaoke", by: "Guild of Students", v: "Guild of Students", a: "selly", p: "Free entry", url: "https://www.guildofstudents.com/ents/event/15320/" },
   { d: "2026-12-02", t: "22:00", n: "Sporty Reindeer: UoB Christmas Takeover", by: "Naughty Horse", v: "Barbara's Bier Haus", a: "broad", p: "Free to £6", url: "https://www.fatsoma.com/e/djvrtc8b" },
   { d: "2026-12-02", t: "23:00", e: "04:00", n: "Sports Night", by: "Guild of Students", v: "Guild of Students", a: "selly", p: "Tickets via your sports club", url: "https://www.guildofstudents.com/events/", tag: "UoB students only" },

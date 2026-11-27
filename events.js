@@ -125,6 +125,7 @@ const EVENTS = [
 {"d": "2026-12-02", "t": "18:00-22:00", "s": "Pantomime Society", "e": "Percy Jackson and the Pantomime Thief premiere watch party", "l": "The Shack", "h": "uobpantosoc"},
 {"d": "2026-12-02", "t": "TBC", "s": "STAR Birmingham x Live Music Society", "e": "Disco for a Difference", "l": "Heybrew", "h": "starbirmingham"},
 {"d": "2026-12-02", "t": "TBC", "s": "Writers' Bloc", "e": "Writing skills workshop", "l": "Not specified", "h": "uobwritersbloc"},
+{"d": "2026-12-03", "t": "15:00-17:00", "s": "Enactus", "e": "Festive Dragon's Den social with Business Society (bring your business ideas)", "l": "Rosa Parks Room, Guild of Students", "h": "enactus.birmingham"},
 {"d": "2026-12-03", "t": "19:00-21:00", "s": "Brumski & Board Club", "e": "Beginner ski & snowboard lesson (transport and kit included)", "l": "Stoke Ski Centre", "h": "brumskiandboard"},
 {"d": "2026-12-04", "t": "18:30-22:00", "s": "Public Speaking Society", "e": "Girls-only social: collaging and Barbie movies", "l": "On campus (TBC)", "h": "uobpublicspeaking"},
 {"d": "2026-12-04", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
@@ -139,6 +140,7 @@ const EVENTS = [
 {"d": "2026-12-09", "t": "16:00-19:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Murray Learning Centre, Room LG14", "h": "sobersocials"},
 {"d": "2026-12-09", "t": "TBC", "s": "Writers' Bloc", "e": "Gothic Christmas with guest speaker", "l": "Not specified", "h": "uobwritersbloc"},
 {"d": "2026-12-11", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
+{"d": "2026-12-11", "t": "20:00", "s": "Brum Socials", "e": "12 Drinks of Xmas bar crawl (six bars; tickets on sale Sun 29 Nov, 19:00)", "l": "Digbeth (starting point)", "h": "brumsocials"},
 {"d": "2027-01-30", "t": "09:30-16:00", "s": "Sexpression Birmingham", "e": "Sexpression training day", "l": "Not specified", "h": "sexpressionbhx"},
 {"d": "2027-03-13", "t": "TBC", "s": "Nuclear & Materials Society x Aerospace Society", "e": "Hollywood Red Carpet Spring Ball", "l": "Edgbaston Stadium, B5 7QU", "h": "uobnams"},
 {"d": "2027-04-03", "t": "TBC", "s": "Brumski & Board Club", "e": "Easter ski trip to Les Deux Alpes (3-10 April)", "l": "Les Deux Alpes, France", "h": "brumskiandboard"}

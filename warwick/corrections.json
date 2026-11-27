@@ -78,6 +78,19 @@
         "l": "T-Bar"
       },
       "note": "PhilPol Term 1 events calendar (posted ~20 Nov 2026) + DM 25 Nov asking to be featured; keeps the event through weekly rebuilds"
+    },
+    {
+      "handle": "uwalbsoc",
+      "date": "2026-11-28",
+      "match": "Independence",
+      "action": "add",
+      "set": {
+        "t": "20:30",
+        "s": "Warwick Albanian Society",
+        "e": "Albanian Independence Day celebration (music and valle)",
+        "l": "Canley (message the society for the address)"
+      },
+      "note": "DM from @eli.dshj (vice-president), 27 Nov 2026; added on the owner's instruction"
     }
   ],
   "never_list": []
