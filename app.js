@@ -63,6 +63,11 @@
     var next = events[0];
     if (next) state.day = next.d > lastDay ? "later" : next.d;
   }
+  // A new university page before its first weekly list: no events at all and no posts counted yet.
+  // META.updated then says when listings arrive, e.g. "listings arrive Monday 30 November 2026".
+  var comingSoon = !EVENTS.length && !META.posts;
+  function cap(s) { s = String(s || ""); return s.charAt(0).toUpperCase() + s.slice(1); }
+  if (comingSoon) [".day-rail-wrap", ".tools"].forEach(function (sel) { var n = document.querySelector(sel); if (n) n.style.display = "none"; });
 
   function status(e, mins) {
     if (e.d !== todayIso || e.time.tbc) return "";
@@ -73,6 +78,12 @@
 
   // ---------- header ----------
   function renderSummary() {
+    if (comingSoon) {
+      els.eyebrow.textContent = "Coming soon";
+      els.lede.textContent = "We are just getting started here.";
+      els.updated.textContent = cap(META.updated) + ".";
+      return;
+    }
     var mins = nowMins();
     var todays = events.filter(function (e) { return e.d === todayIso; });
     var live = todays.filter(function (e) { return status(e, mins) === "live"; }).length;
@@ -164,6 +175,11 @@
   }
 
   function renderList() {
+    if (comingSoon) {
+      els.list.innerHTML = '<div class="empty"><b>No events listed yet</b><span>The first weekly list will appear here, with times and rooms. ' +
+        "Societies can message us on Instagram (link at the bottom of the page) to be included.</span></div>";
+      return;
+    }
     var mins = nowMins(), q = state.q.trim().toLowerCase();
     var rows = events.filter(function (e) {
       if (state.room && !e.room) return false;
@@ -255,7 +271,7 @@
   openHash();
 })();
 
-// University switcher in the header (Birmingham | Aston | Warwick)
+// University switcher in the header (the options are listed in each listing page's index.html)
 (function () {
   var s = document.getElementById("uni");
   if (s) s.addEventListener("change", function () { if (s.value) location.href = s.value; });
