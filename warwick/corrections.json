@@ -91,6 +91,19 @@
         "l": "Canley (message the society for the address)"
       },
       "note": "DM from @eli.dshj (vice-president), 27 Nov 2026; added on the owner's instruction"
+    },
+    {
+      "handle": "warwick__livies",
+      "date": "2026-12-02",
+      "match": "Bauble",
+      "action": "add",
+      "set": {
+        "t": "18:00",
+        "s": "Warwick Livies",
+        "e": "Bauble decorating with Warwick Language Society (paid)",
+        "l": "OC0.04"
+      },
+      "note": "DM from @warwick__livies (Olivia Rodrigo music appreciation society), added on the owner's instruction 28 Nov 2026"
     }
   ],
   "never_list": []

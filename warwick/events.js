@@ -246,6 +246,7 @@ const EVENTS = [
 {"d": "2026-12-02", "t": "16:00", "s": "Jain Society", "e": "WAFFLE - Warwick All Faiths Fair Learning Expo (free, registration)", "l": "Chaplaincy", "h": "warwickjainsociety"},
 {"d": "2026-12-02", "t": "17:00-18:00 (arrive 45 min early)", "s": "Filipino Society", "e": "Inter-uni FilSoc ice skating in Birmingham (ticketed; ticket deadline 25 Nov)", "l": "Centenary Sq, Broad St, Birmingham B1 2ND", "h": "warwick.filsoc"},
 {"d": "2026-12-02", "t": "17:00-19:00", "s": "Who Soc", "e": "Whoniversity Challenge quiz 2 (interest form by 26 Nov)", "l": "Not specified", "h": "warwickwhosoc"},
+{"d": "2026-12-02", "t": "18:00", "s": "Warwick Livies", "e": "Bauble decorating with Warwick Language Society (paid)", "l": "OC0.04", "h": "warwick__livies"},
 {"d": "2026-12-02", "t": "18:30", "s": "Politics, Philosophy and Law", "e": "PPL Society Winter Dinner (sign-up, limited space)", "l": "The Yard, Coventry", "h": "warwickpplsociety"},
 {"d": "2026-12-02", "t": "TBC", "s": "History of Art Society", "e": "Library study session", "l": "Not specified", "h": "warwickhoasociety"},
 {"d": "2026-12-02", "t": "TBC", "s": "Warwick Conservative Association", "e": "Circle & POP", "l": "Not specified", "h": "warwicktories"},
