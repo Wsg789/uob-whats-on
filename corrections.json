@@ -468,6 +468,19 @@
         "l": "Digbeth (starting point)"
       },
       "note": "DM from @brumsocials, 26 Nov 2026"
+    },
+    {
+      "handle": "hideandseek_uob",
+      "date": "2026-12-09",
+      "match": "Christmas",
+      "action": "add",
+      "set": {
+        "t": "17:00-19:00",
+        "s": "Hide and Seek Society",
+        "e": "Save Christmas: cops and robbers on campus (ticket money to Birmingham Children's Charity)",
+        "l": "Old Joe (meeting point)"
+      },
+      "note": "DM from @hideandseek_uob, 28 Nov 2026"
     }
   ],
   "never_list": []

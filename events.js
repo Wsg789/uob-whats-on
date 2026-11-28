@@ -138,6 +138,7 @@ const EVENTS = [
 {"d": "2026-12-06", "t": "13:00-14:00", "s": "Roundnet Society", "e": "Indoor session", "l": "Sport & Fitness Centre, Munrow Arena", "h": "uob_roundnet"},
 {"d": "2026-12-07", "t": "19:00", "s": "Betty Buds (Dance Society)", "e": "Ice skating at the Christmas markets", "l": "Christmas markets ice rink", "h": "uobdance"},
 {"d": "2026-12-09", "t": "16:00-19:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Murray Learning Centre, Room LG14", "h": "sobersocials"},
+{"d": "2026-12-09", "t": "17:00-19:00", "s": "Hide and Seek Society", "e": "Save Christmas: cops and robbers on campus (ticket money to Birmingham Children's Charity)", "l": "Old Joe (meeting point)", "h": "hideandseek_uob"},
 {"d": "2026-12-09", "t": "TBC", "s": "Writers' Bloc", "e": "Gothic Christmas with guest speaker", "l": "Not specified", "h": "uobwritersbloc"},
 {"d": "2026-12-11", "t": "19:00-22:00", "s": "Sober Socials", "e": "Weekly sober social", "l": "Nuffield, Room G17", "h": "sobersocials"},
 {"d": "2026-12-11", "t": "20:00", "s": "Brum Socials", "e": "12 Drinks of Xmas bar crawl (six bars; tickets on sale Sun 29 Nov, 19:00)", "l": "Digbeth (starting point)", "h": "brumsocials"},
