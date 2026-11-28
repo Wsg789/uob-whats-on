@@ -481,6 +481,19 @@
         "l": "Old Joe (meeting point)"
       },
       "note": "DM from @hideandseek_uob, 28 Nov 2026"
+    },
+    {
+      "handle": "uobf1.society",
+      "date": "2026-11-29",
+      "match": "Qatar",
+      "action": "add",
+      "set": {
+        "t": "TBC",
+        "s": "Formula 1 Society",
+        "e": "Qatar Grand Prix watch party",
+        "l": "Not specified"
+      },
+      "note": "DM from @uobf1.society, 28 Nov 2026"
     }
   ],
   "never_list": []
