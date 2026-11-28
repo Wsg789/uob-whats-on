@@ -488,10 +488,10 @@
       "match": "Qatar",
       "action": "add",
       "set": {
-        "t": "TBC",
+        "t": "16:00",
         "s": "Formula 1 Society",
         "e": "Qatar Grand Prix watch party",
-        "l": "Not specified"
+        "l": "The Bristol Pear, Selly Oak"
       },
       "note": "DM from @uobf1.society, 28 Nov 2026"
     }
